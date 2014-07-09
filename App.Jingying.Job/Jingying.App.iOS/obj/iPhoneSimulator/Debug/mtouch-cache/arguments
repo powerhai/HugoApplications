@@ -36,9 +36,9 @@
 	-r \
 	/Users/hai/Desktop/Share/HugoApplications/lib/ios/Xamarin.Mobile.dll \
 	-r \
-	/Users/hai/Desktop/Share/HugoApplications/App.Jingying.Job/Jingying.App.iOS/../packages/ZXing.Net.Mobile.1.4.5/lib/MonoTouch/zxing.monotouch.dll \
+	/Users/hai/Desktop/Share/HugoApplications/App.Jingying.Job/packages/ZXing.Net.Mobile.1.4.5/lib/MonoTouch/zxing.monotouch.dll \
 	-r \
-	/Users/hai/Desktop/Share/HugoApplications/App.Jingying.Job/Jingying.App.iOS/../packages/ZXing.Net.Mobile.1.4.5/lib/MonoTouch/ZXing.Net.Mobile.dll \
+	/Users/hai/Desktop/Share/HugoApplications/App.Jingying.Job/packages/ZXing.Net.Mobile.1.4.5/lib/MonoTouch/ZXing.Net.Mobile.dll \
 	-debug \
 	-nolink \
 	-sdk \
