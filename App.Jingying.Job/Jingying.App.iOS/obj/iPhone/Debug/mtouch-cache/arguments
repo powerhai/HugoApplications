@@ -1,0 +1,47 @@
+# Version: 7.2.5.5 (87026b6)
+# [first argument, ignore] # /Users/hai/Desktop/Share/Sagua.App.Framework/Sagua.App.iOS/bin/iPhone/Debug/mtouch.exe
+/Developer/MonoTouch/usr/bin/mtouch \
+	-sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--cache \
+	/Users/hai/Desktop/Share/Sagua.App.Framework/Sagua.App.iOS/obj/iPhone/Debug/mtouch-cache \
+	--nomanifest \
+	--nosign \
+	-dev \
+	/Users/hai/Desktop/Share/Sagua.App.Framework/Sagua.App.iOS/bin/iPhone/Debug/SaguaAppiOS.app \
+	-r \
+	/Users/hai/Desktop/Share/Sagua.App.Framework/Sagua.App.Core/bin/Debug/Sagua.App.Core.dll \
+	-r \
+	/Users/hai/Desktop/Share/Sagua.App.Framework/Sagua.App.Controls/bin/Debug/Sagua.App.Controls.dll \
+	-r \
+	/Users/hai/Desktop/Share/Sagua.App.Framework/Sagua.App.Components/bin/Debug/Sagua.App.Components.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Xml.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Core.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/monotouch.dll \
+	-r \
+	/Users/hai/Desktop/Share/Sagua.App.Framework/packages/Xamarin.Forms.1.0.6186/lib/MonoTouch10/Xamarin.Forms.Platform.iOS.dll \
+	-r \
+	/Users/hai/Desktop/Share/Sagua.App.Framework/packages/Xamarin.Forms.1.0.6186/lib/MonoTouch10/Xamarin.Forms.Core.dll \
+	-r \
+	/Users/hai/Desktop/Share/Sagua.App.Framework/packages/Xamarin.Forms.1.0.6186/lib/MonoTouch10/Xamarin.Forms.Xaml.dll \
+	-r \
+	/Users/hai/Desktop/Share/Sagua.App.Framework/lib/ios/Xamarin.Mobile.dll \
+	-r \
+	/Users/hai/Desktop/Share/Sagua.App.Framework/lib/ios/BTProgressHUD.dll \
+	-r \
+	/Users/hai/Desktop/Share/Sagua.App.Framework/packages/ZXing.Net.Mobile.1.4.5/lib/MonoTouch/zxing.monotouch.dll \
+	-r \
+	/Users/hai/Desktop/Share/Sagua.App.Framework/packages/ZXing.Net.Mobile.1.4.5/lib/MonoTouch/ZXing.Net.Mobile.dll \
+	-debug \
+	-linksdkonly \
+	-sdk \
+	7.1 \
+	-targetver \
+	7.0 \
+	--abi=armv7 \
+	/Users/hai/Desktop/Share/Sagua.App.Framework/Sagua.App.iOS/bin/iPhone/Debug/SaguaAppFrameworkiOS.exe \

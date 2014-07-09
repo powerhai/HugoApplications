@@ -1,6 +1,6 @@
 using System;
 using Xamarin.Forms;
-using Xamarin.Forms.Platform.iOS; 
+using Xamarin.Forms.Platform.iOS;
 using MonoTouch.UIKit;
 using Sagua.App.Controls;
 using Sagua.App.Controls.iOS;

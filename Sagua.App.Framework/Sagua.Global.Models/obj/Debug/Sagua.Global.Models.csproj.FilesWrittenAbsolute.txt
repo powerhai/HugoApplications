@@ -1,5 +1,5 @@
-/Users/hai/Desktop/Share/Sagua.App.Framework/Sagua.Global.Models/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
-/Users/hai/Desktop/Share/Sagua.App.Framework/Sagua.Global.Models/bin/Debug/Sagua.Global.Models.dll.mdb
-/Users/hai/Desktop/Share/Sagua.App.Framework/Sagua.Global.Models/bin/Debug/Sagua.Global.Models.dll
-/Users/hai/Desktop/Share/Sagua.App.Framework/Sagua.Global.Models/obj/Debug/Sagua.Global.Models.dll
-/Users/hai/Desktop/Share/Sagua.App.Framework/Sagua.Global.Models/obj/Debug/Sagua.Global.Models.dll.mdb
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.Global.Models/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.Global.Models/bin/Debug/Sagua.Global.Models.dll.mdb
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.Global.Models/bin/Debug/Sagua.Global.Models.dll
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.Global.Models/obj/Debug/Sagua.Global.Models.dll
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.Global.Models/obj/Debug/Sagua.Global.Models.dll.mdb

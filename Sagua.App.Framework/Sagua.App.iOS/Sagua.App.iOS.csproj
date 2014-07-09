@@ -102,17 +102,17 @@
     <Reference Include="Xamarin.Forms.Xaml">
       <HintPath>..\packages\Xamarin.Forms.1.0.6186\lib\MonoTouch10\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Mobile">
-      <HintPath>..\lib\ios\Xamarin.Mobile.dll</HintPath>
-    </Reference>
-    <Reference Include="BTProgressHUD">
-      <HintPath>..\lib\ios\BTProgressHUD.dll</HintPath>
-    </Reference>
     <Reference Include="zxing.monotouch">
       <HintPath>..\packages\ZXing.Net.Mobile.1.4.5\lib\MonoTouch\zxing.monotouch.dll</HintPath>
     </Reference>
     <Reference Include="ZXing.Net.Mobile">
       <HintPath>..\packages\ZXing.Net.Mobile.1.4.5\lib\MonoTouch\ZXing.Net.Mobile.dll</HintPath>
+    </Reference>
+    <Reference Include="BTProgressHUD">
+      <HintPath>..\..\lib\ios\BTProgressHUD.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Mobile">
+      <HintPath>..\..\lib\ios\Xamarin.Mobile.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
