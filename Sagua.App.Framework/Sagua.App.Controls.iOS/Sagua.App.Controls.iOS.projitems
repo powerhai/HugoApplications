@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{83A68C5D-211A-4D91-A45D-3AC23E8C739C}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Sagua.App.Controls.iOS</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Image\XZoomImageViewRenderer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Image\XZoomImageView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Image\XImagesViewRenderer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ListView\LoadMoreStateType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ListView\LoadMoreView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ListView\XListViewRenderer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ListView\FormsUIRefreshControl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ListView\PullToRefreshListViewRenderer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Image\" />
+    <Folder Include="$(MSBuildThisFileDirectory)ListView\" />
+  </ItemGroup>
+</Project>

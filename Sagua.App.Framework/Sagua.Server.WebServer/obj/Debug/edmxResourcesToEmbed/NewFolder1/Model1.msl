@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="testModelStoreContainer" CdmEntityContainer="testEntities">
+    <EntitySetMapping Name="t_user">
+      <EntityTypeMapping TypeName="testModel.t_user">
+        <MappingFragment StoreEntitySet="t_user">
+          <ScalarProperty Name="idt_user" ColumnName="idt_user" />
+          <ScalarProperty Name="t_usercol" ColumnName="t_usercol" />
+          <ScalarProperty Name="t_usercol1" ColumnName="t_usercol1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

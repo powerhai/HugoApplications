@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Sagua.App.Core.RefreshListViewPage"
+xmlns:controls="clr-namespace:Sagua.App.Controls;assembly=Sagua.App.Controls"
+	xmlns:converter="clr-namespace:Sagua.App.Common;assembly=Sagua.App.Common"
+
+>
+	<ContentPage.Resources>
+		<ResourceDictionary>
+			<converter:UrlStringToCacheImageSourceValueConverter x:Key="CacheImageConverter" />
+		</ResourceDictionary>
+	</ContentPage.Resources>
+	<ContentPage.Content>
+	<StackLayout>
+		<controls:PullToRefreshListView   RefreshCommand="{Binding RefreshCommand}"   
+			ItemsSource="{Binding Doctors}"
+		>
+			 <controls:PullToRefreshListView.ItemTemplate>
+      	<DataTemplate >
+        <ViewCell>
+          <ViewCell.View>
+            <StackLayout Orientation="Horizontal"> 
+              	<Image Source="{Binding ImageUrl,Converter={StaticResource CacheImageConverter}}"
+                     WidthRequest="40"
+                     HeightRequest="40" /> 
+                <Label Text="{Binding  Name}"
+                       HorizontalOptions="FillAndExpand" /> 
+            </StackLayout>
+          </ViewCell.View>
+        </ViewCell>
+      </DataTemplate>
+    </controls:PullToRefreshListView.ItemTemplate>
+		</controls:PullToRefreshListView>
+	</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

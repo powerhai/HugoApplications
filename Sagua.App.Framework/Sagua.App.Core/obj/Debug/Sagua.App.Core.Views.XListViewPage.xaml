@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Sagua.App.Core.XListViewPage"
+	xmlns:controls="clr-namespace:Sagua.App.Controls;assembly=Sagua.App.Controls"
+	xmlns:converter="clr-namespace:Sagua.App.Common;assembly=Sagua.App.Common"
+>
+	<ContentPage.Resources>
+		<ResourceDictionary>
+			<converter:UrlStringToCacheImageSourceValueConverter x:Key="CacheImageConverter" />
+		</ResourceDictionary>
+	</ContentPage.Resources>
+	<ContentPage.Content>
+	<StackLayout>
+	<controls:XListView ItemsSource="{Binding Doctors}" RefreshCommand="{Binding RefreshCommand}" LoadmoreCommand="{Binding LoadmoreCommand}"
+		>
+
+		</controls:XListView>
+	</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

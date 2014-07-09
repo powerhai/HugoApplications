@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Sagua.App.Core.XZoomImagePage"
+xmlns:controls="clr-namespace:Sagua.App.Controls;assembly=Sagua.App.Controls"
+>
+	<ContentPage.Content>
+	<Grid HorizontalOptions="Fill" RowSpacing="0" ColumnSpacing="0">
+	 	<Grid.RowDefinitions>
+      		<RowDefinition Height="auto"  />
+      		<RowDefinition Height="*" /> 
+    	</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions> 
+      		<ColumnDefinition Width="*" /> 
+      		<ColumnDefinition Width="0" /> 
+    	</Grid.ColumnDefinitions>
+		<Button Text="goa asdf asdf asdf s" Grid.Row="0" Command="{Binding SetImageUrlCommand}" BackgroundColor="Olive"></Button> 
+		<controls:XZoomImageView Grid.Row="1" ImageUrl="{Binding ImageUrl}" />
+	</Grid>
+
+	</ContentPage.Content>
+</ContentPage>

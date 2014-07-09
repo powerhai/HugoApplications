@@ -1,0 +1,12 @@
+﻿<xapCache source="\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.App.WinPhone\Bin\Debug\Sagua.App.WinPhone_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2014/7/10 0:13:40">
+  <file source="\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.App.WinPhone\obj\Debug\Sagua.App.WinPhone.dll" archivePath="Sagua.App.WinPhone.dll" lastWriteTime="2014/7/10 0:13:38" />
+  <file source="\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.App.WinPhone\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="2014/7/10 0:13:18" />
+  <file source="\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.App.WinPhone\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="2014/7/10 0:13:18" />
+  <file source="\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.App.WinPhone\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="2014/7/10 0:13:18" />
+  <file source="\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.App.WinPhone\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="2014/7/10 0:13:18" />
+  <file source="\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.App.WinPhone\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="2014/7/10 0:13:18" />
+  <file source="\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.App.WinPhone\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2014/7/10 0:13:39" />
+  <file source="\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.App.WinPhone\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="2014/7/10 0:13:18" />
+  <file source="\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.App.WinPhone\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="2014/7/10 0:13:18" />
+  <file source="\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.App.WinPhone\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2014/7/10 0:13:39" />
+</xapCache>

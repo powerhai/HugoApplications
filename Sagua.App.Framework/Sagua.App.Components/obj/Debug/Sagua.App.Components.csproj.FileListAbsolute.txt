@@ -1,0 +1,9 @@
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.App.Components\bin\Debug\Sagua.App.Components.dll
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.App.Components\bin\Debug\Sagua.App.Components.pdb
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.App.Components\bin\Debug\Xamarin.Forms.Core.dll
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.App.Components\bin\Debug\Xamarin.Forms.Xaml.dll
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.App.Components\bin\Debug\Xamarin.Forms.Core.xml
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.App.Components\bin\Debug\Xamarin.Forms.Xaml.xml
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.App.Components\obj\Debug\Sagua.App.Components.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.App.Components\obj\Debug\Sagua.App.Components.dll
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.App.Components\obj\Debug\Sagua.App.Components.pdb

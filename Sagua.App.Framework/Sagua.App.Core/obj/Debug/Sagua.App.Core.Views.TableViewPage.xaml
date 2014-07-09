@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Sagua.App.Core.TableViewPage">
+	<ContentPage.Content>
+    <StackLayout>
+<Label Text="ok" ></Label>
+ <TableView HasUnevenRows="True" Intent="Menu" >
+        <!--Intent= Data,Form,Menu,Menu-->
+        	<TableView.Root>
+				<TableRoot Title="title" >
+								<TableSection Title="lisy">
+									<TextCell Text="hai" ></TextCell>
+								</TableSection>
+
+								<TableSection  >
+									<ViewCell Height="121"  >
+									<StackLayout Orientation="Horizontal">
+									<Label Text="123456780" ></Label>
+									<Label Text="1234567890" ></Label>
+									<Label Text="1234567890" ></Label>
+									</StackLayout>
+										
+									</ViewCell>
+									<SwitchCell Text="go" ></SwitchCell>									 
+								</TableSection>
+							</TableRoot>
+        	</TableView.Root> 
+        </TableView>
+    </StackLayout>
+
+	</ContentPage.Content>
+</ContentPage>

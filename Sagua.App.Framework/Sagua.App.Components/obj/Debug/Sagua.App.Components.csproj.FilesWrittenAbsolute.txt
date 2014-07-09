@@ -1,0 +1,7 @@
+/Users/hai/Desktop/Share/Sagua.App.Framework/Sagua.App.Components/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/hai/Desktop/Share/Sagua.App.Framework/Sagua.App.Components/bin/Debug/Sagua.App.Components.dll.mdb
+/Users/hai/Desktop/Share/Sagua.App.Framework/Sagua.App.Components/bin/Debug/Sagua.App.Components.dll
+/Users/hai/Desktop/Share/Sagua.App.Framework/Sagua.App.Components/obj/Debug/Sagua.App.Components.dll
+/Users/hai/Desktop/Share/Sagua.App.Framework/Sagua.App.Components/obj/Debug/Sagua.App.Components.dll.mdb
+/Users/hai/Desktop/Share/Sagua.App.Framework/Sagua.App.Components/bin/Debug/Xamarin.Forms.Core.dll
+/Users/hai/Desktop/Share/Sagua.App.Framework/Sagua.App.Components/bin/Debug/Xamarin.Forms.Xaml.dll

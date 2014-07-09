@@ -1,0 +1,4 @@
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.Global.Models\bin\Debug\Sagua.Global.Models.dll
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.Global.Models\bin\Debug\Sagua.Global.Models.pdb
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.Global.Models\obj\Debug\Sagua.Global.Models.dll
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.Global.Models\obj\Debug\Sagua.Global.Models.pdb

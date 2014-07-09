@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Sagua.App.Core.GroupListViewPage"
+xmlns:controls="clr-namespace:Sagua.App.Controls;assembly=Sagua.App.Controls"
+>
+	<ContentPage.Content>
+		<ListView ItemsSource="{Binding Doctors}"    IsGroupingEnabled="true" >
+ 			<ListView.GroupHeaderTemplate>
+				<DataTemplate>
+					<ViewCell>
+				          <ViewCell.View>
+				            <StackLayout Orientation="Horizontal"> 
+				              	 <Label Text="{Binding GroupTitle}"></Label>
+				            </StackLayout>
+				          </ViewCell.View>
+			        </ViewCell>					
+				</DataTemplate>				
+			</ListView.GroupHeaderTemplate> 
+		</ListView>
+ 
+	</ContentPage.Content>
+</ContentPage>

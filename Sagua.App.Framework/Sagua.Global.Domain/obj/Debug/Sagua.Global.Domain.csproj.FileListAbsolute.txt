@@ -1,0 +1,5 @@
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.Global.Domain\bin\Debug\Sagua.Global.Domain.dll
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.Global.Domain\bin\Debug\Sagua.Global.Domain.pdb
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.Global.Domain\obj\Debug\Sagua.Global.Domain.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.Global.Domain\obj\Debug\Sagua.Global.Domain.dll
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.Global.Domain\obj\Debug\Sagua.Global.Domain.pdb
