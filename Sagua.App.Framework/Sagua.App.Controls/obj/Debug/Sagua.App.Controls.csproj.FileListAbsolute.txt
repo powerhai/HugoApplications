@@ -6,3 +6,12 @@
 \\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.App.Controls\bin\Debug\Xamarin.Forms.Xaml.xml
 \\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.App.Controls\obj\Debug\Sagua.App.Controls.dll
 \\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.App.Controls\obj\Debug\Sagua.App.Controls.pdb
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.App.Controls\bin\Debug\Sagua.App.Controls.dll
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.App.Controls\bin\Debug\Sagua.App.Controls.pdb
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.App.Controls\bin\Debug\Xamarin.Forms.Core.dll
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.App.Controls\bin\Debug\Xamarin.Forms.Xaml.dll
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.App.Controls\bin\Debug\Xamarin.Forms.Core.xml
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.App.Controls\bin\Debug\Xamarin.Forms.Xaml.xml
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.App.Controls\obj\Debug\Sagua.App.Controls.dll
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.App.Controls\obj\Debug\Sagua.App.Controls.pdb
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.App.Controls\obj\Debug\Sagua.App.Controls.csprojResolveAssemblyReference.cache

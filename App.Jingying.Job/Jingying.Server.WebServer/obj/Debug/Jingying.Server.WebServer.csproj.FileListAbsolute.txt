@@ -1,0 +1,14 @@
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.WebServer\bin\Sagua.Server.WebServer.dll.config
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.WebServer\bin\Sagua.Server.WebServer.dll
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.WebServer\bin\Sagua.Server.WebServer.pdb
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.WebServer\bin\Sagua.Server.DB.Models.dll
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.WebServer\bin\Sagua.Server.WebControllers.dll
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.WebServer\bin\Sagua.Global.Domain.dll
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.WebServer\bin\Sagua.Server.DB.Context.dll
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.WebServer\bin\Sagua.Server.DB.Models.pdb
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.WebServer\bin\Sagua.Server.WebControllers.pdb
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.WebServer\bin\Sagua.Global.Domain.pdb
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.WebServer\bin\Sagua.Server.DB.Context.pdb
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.WebServer\obj\Debug\Jingying.Server.WebServer.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.WebServer\obj\Debug\Sagua.Server.WebServer.dll
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.WebServer\obj\Debug\Sagua.Server.WebServer.pdb

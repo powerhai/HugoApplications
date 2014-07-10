@@ -7,11 +7,11 @@ Xamarin.Mobile.dll
 Sagua.App.Components.dll
 System.Runtime.dll
 System.ComponentModel.Composition.dll
-System.IO.dll
 System.ObjectModel.dll
+System.Threading.Tasks.dll
+System.IO.dll
 System.Collections.dll
 System.Threading.dll
-System.Threading.Tasks.dll
 Xamarin.Forms.Core.dll
 System.Runtime.Extensions.dll
 System.Linq.Expressions.dll

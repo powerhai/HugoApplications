@@ -1,0 +1,7 @@
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.DB.Context\bin\Debug\Sagua.Server.DB.Context.dll.config
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.DB.Context\bin\Debug\Sagua.Server.DB.Context.dll
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.DB.Context\bin\Debug\Sagua.Server.DB.Context.pdb
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.DB.Context\bin\Debug\EntityFramework.xml
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.DB.Context\obj\Debug\Jingying.Server.DB.Context.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.DB.Context\obj\Debug\Sagua.Server.DB.Context.dll
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.DB.Context\obj\Debug\Sagua.Server.DB.Context.pdb

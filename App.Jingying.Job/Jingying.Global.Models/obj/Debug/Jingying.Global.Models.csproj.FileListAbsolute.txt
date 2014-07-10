@@ -1,0 +1,4 @@
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Global.Models\bin\Debug\Jingying.Global.Models.dll
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Global.Models\bin\Debug\Jingying.Global.Models.pdb
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Global.Models\obj\Debug\Jingying.Global.Models.dll
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Global.Models\obj\Debug\Jingying.Global.Models.pdb

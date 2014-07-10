@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="testModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="t_user">
+    <Key>
+      <PropertyRef Name="idt_user" />
+    </Key>
+    <Property Name="idt_user" Type="Int32" Nullable="false" />
+    <Property Name="t_usercol" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="t_usercol1" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="iuu" Type="String" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="testEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="t_user" EntityType="Self.t_user" />
+  </EntityContainer>
+</Schema>

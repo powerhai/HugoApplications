@@ -1,0 +1,11 @@
+/Users/hai/Desktop/Share/MobileAppTemplate/Source/Server.WebControllers/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/hai/Desktop/Share/MobileAppTemplate/Source/Server.WebControllers/bin/Debug/Server.WebControllers.dll.mdb
+/Users/hai/Desktop/Share/MobileAppTemplate/Source/Server.WebControllers/bin/Debug/Server.WebControllers.dll
+/Users/hai/Desktop/Share/MobileAppTemplate/Source/Server.WebControllers/obj/Debug/Server.WebControllers.dll
+/Users/hai/Desktop/Share/MobileAppTemplate/Source/Server.WebControllers/obj/Debug/Server.WebControllers.dll.mdb
+/Users/hai/Desktop/Share/MobileAppTemplate/Source/Server.WebControllers/bin/Debug/Global.Models.dll
+/Users/hai/Desktop/Share/MobileAppTemplate/Source/Server.WebControllers/bin/Debug/Global.Models.dll.mdb
+/Users/hai/Desktop/Share/MobileAppTemplate/Source/Server.WebControllers/bin/Debug/Global.Common.dll
+/Users/hai/Desktop/Share/MobileAppTemplate/Source/Server.WebControllers/bin/Debug/Global.Common.dll.mdb
+/Users/hai/Desktop/Share/MobileAppTemplate/Source/Server.WebControllers/bin/Debug/Cirrious.CrossCore.dll
+/Users/hai/Desktop/Share/MobileAppTemplate/Source/Server.WebControllers/bin/Debug/Cirrious.MvvmCross.Localization.dll

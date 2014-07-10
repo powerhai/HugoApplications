@@ -1,0 +1,14 @@
+\\vmware-host\Shared Folders\Share\MobileAppTemplate\Source\Server.DB.Models\bin\Debug\Server.DB.Models.dll
+\\vmware-host\Shared Folders\Share\MobileAppTemplate\Source\Server.DB.Models\bin\Debug\Server.DB.Models.pdb
+\\vmware-host\Shared Folders\Share\MobileAppTemplate\Source\Server.DB.Models\bin\Debug\Global.Models.dll
+\\vmware-host\Shared Folders\Share\MobileAppTemplate\Source\Server.DB.Models\bin\Debug\Global.Common.dll
+\\vmware-host\Shared Folders\Share\MobileAppTemplate\Source\Server.DB.Models\bin\Debug\Cirrious.CrossCore.dll
+\\vmware-host\Shared Folders\Share\MobileAppTemplate\Source\Server.DB.Models\bin\Debug\Cirrious.MvvmCross.Localization.dll
+\\vmware-host\Shared Folders\Share\MobileAppTemplate\Source\Server.DB.Models\bin\Debug\Global.Models.pdb
+\\vmware-host\Shared Folders\Share\MobileAppTemplate\Source\Server.DB.Models\bin\Debug\Global.Common.pdb
+\\vmware-host\Shared Folders\Share\MobileAppTemplate\Source\Server.DB.Models\obj\Debug\Server.DB.Models.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Share\MobileAppTemplate\Source\Server.DB.Models\obj\Debug\Server.DB.Models.dll
+\\vmware-host\Shared Folders\Share\MobileAppTemplate\Source\Server.DB.Models\obj\Debug\Server.DB.Models.pdb
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.Server.DB.Models\obj\Debug\Server.DB.Models.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.Server.DB.Models\obj\Debug\Server.DB.Models.dll
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.Server.DB.Models\obj\Debug\Server.DB.Models.pdb

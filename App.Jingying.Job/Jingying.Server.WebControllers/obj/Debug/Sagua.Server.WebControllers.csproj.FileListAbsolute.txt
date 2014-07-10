@@ -1,0 +1,12 @@
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.Server.WebControllers\obj\Debug\Sagua.Server.WebControllers.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.Server.WebControllers\bin\Debug\Sagua.Server.WebControllers.dll
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.Server.WebControllers\bin\Debug\Sagua.Server.WebControllers.pdb
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.Server.WebControllers\bin\Debug\Sagua.Server.DB.Context.dll
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.Server.WebControllers\bin\Debug\Sagua.Server.DB.Models.dll
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.Server.WebControllers\bin\Debug\Sagua.Global.Domain.dll
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.Server.WebControllers\bin\Debug\Sagua.Server.DB.Context.pdb
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.Server.WebControllers\bin\Debug\Sagua.Server.DB.Models.pdb
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.Server.WebControllers\bin\Debug\EntityFramework.xml
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.Server.WebControllers\bin\Debug\Sagua.Global.Domain.pdb
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.Server.WebControllers\obj\Debug\Sagua.Server.WebControllers.dll
+\\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.Server.WebControllers\obj\Debug\Sagua.Server.WebControllers.pdb
