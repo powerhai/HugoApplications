@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>3d6d798a-e3a1-4239-9c3d-18b38936875b</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Sagua.App.Components.WinPhone</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)BarCodeBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BarCodeScanner.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LocationService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NetworkService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DeviceInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PhoneService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PhotoService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ProgressDialog.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ProgressPopUp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WinBitmap.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WinPhoneSettings.cs" />
+  </ItemGroup>
+</Project>

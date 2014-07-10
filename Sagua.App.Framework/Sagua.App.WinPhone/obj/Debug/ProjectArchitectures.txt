@@ -1,0 +1,10 @@
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.App.Common\Sagua.App.Common.csproj;neutral
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.App.Components\Sagua.App.Components.csproj;neutral
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.App.Components\Sagua.App.Components.csproj;neutral
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.App.Controls\Sagua.App.Controls.csproj;neutral
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.App.Controls\Sagua.App.Controls.csproj;neutral
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.App.Core\Sagua.App.Core.csproj;neutral
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.App.WinPhone\Sagua.App.WinPhone.csproj;neutral
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.Global.Common\Sagua.Global.Common.csproj;neutral
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.Global.Domain\Sagua.Global.Domain.csproj;neutral
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.Global.Models\Sagua.Global.Models.csproj;neutral

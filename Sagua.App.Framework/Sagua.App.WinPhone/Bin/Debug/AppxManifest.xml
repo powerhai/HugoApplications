@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:build="http://schemas.microsoft.com/developer/appx/2012/build" IgnorableNamespaces="build">
+  <!--
+    此包清单文件由生成过程生成。
+
+    如果重新生成此文件，将丢失对其所做的更改。若要更正此文件中的错误，请编辑源 .appxmanifest 文件。
+
+    有关程序包清单文件的详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkID=241727
+  -->
+  <Identity Name="651ecb5e-80ce-4312-8fd9-d8d1544a4995" Publisher="CN=hai" Version="1.0.0.0" ProcessorArchitecture="neutral" />
+  <mp:PhoneIdentity PhoneProductId="5df25212-a1f0-4e92-888e-59d3784969fa" PhonePublisherId="c29dda3a-8953-4695-8c38-97772188e4a0" />
+  <Properties>
+    <DisplayName>Sagua.App.WinPhone</DisplayName>
+    <PublisherDisplayName>hai</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.1</OSMinVersion>
+    <OSMaxVersionTested>6.3.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="ZH-CN" />
+  </Resources>
+  <Applications>
+    <Application Id="x5df25212ya1f0y4e92y888ey59d3784969fax" Executable="AGHost.exe" EntryPoint="MainPage.xaml">
+      <m3:VisualElements DisplayName="Sagua.App.WinPhone" Square150x150Logo="Assets\SquareTile150x150.png" Square44x44Logo="Assets\Logo.png" Description="Sagua.App.WinPhone" ForegroundText="light" BackgroundColor="#464646">
+        <m3:DefaultTile Square71x71Logo="Assets\SquareTile71x71.png" />
+        <m3:SplashScreen Image="Assets\Splashscreen.png" />
+      </m3:VisualElements>
+      <Extensions>
+        <Extension Category="windows.backgroundTasks" EntryPoint="AgHost.BackgroundTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities></Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>AgHostSvcs.dll</Path>
+        <ActivatableClass ActivatableClassId="AgHost.BackgroundTask" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <build:Metadata>
+    <build:Item Name="SharedGUID" Value="ee68234a-1fcb-431f-b0fa-3038432b2f18" />
+    <build:Item Name="CodeSharingProject" Value="248F659F-DAC5-46E8-AC09-60EC9FC95053" />
+    <build:Item Name="TargetFrameworkMoniker" Value="WindowsPhone,Version=v8.1" />
+    <build:Item Name="VisualStudio" Version="12.0" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Ultimate 2013" />
+    <build:Item Name="OperatingSystem" Version="6.3.9600.16384 (winblue_rtm.130821-1623)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="12.0.30501.0" />
+    <build:Item Name="MakePri.exe" Version="6.3.9600.17029 (winblue_gdr.140219-1702)" />
+  </build:Metadata>
+</Package>

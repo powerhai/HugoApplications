@@ -8,6 +8,7 @@ using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using Sagua.App.WinPhone.Resources;
+using Xamarin.Forms;
 
 namespace Sagua.App.WinPhone
 {
@@ -17,6 +18,8 @@ namespace Sagua.App.WinPhone
         public MainPage()
         {
             InitializeComponent();
+            Forms.Init();
+            Content = Core.App.GetMainPage().ConvertPageToUIElement(this);
 
             // 用于本地化 ApplicationBar 的示例代码
             //BuildLocalizedApplicationBar();

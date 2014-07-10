@@ -9,3 +9,13 @@
 \\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.Server.DB.Context\obj\Debug\Sagua.Server.DB.Context.csprojResolveAssemblyReference.cache
 \\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.Server.DB.Context\obj\Debug\Sagua.Server.DB.Context.dll
 \\vmware-host\Shared Folders\Sagua.App.Framework\Sagua.Server.DB.Context\obj\Debug\Sagua.Server.DB.Context.pdb
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.Server.DB.Context\bin\Debug\Sagua.Server.DB.Context.dll.config
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.Server.DB.Context\bin\Debug\Sagua.Server.DB.Context.dll
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.Server.DB.Context\bin\Debug\Sagua.Server.DB.Context.pdb
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.Server.DB.Context\bin\Debug\Sagua.Server.DB.Models.dll
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.Server.DB.Context\bin\Debug\Sagua.Global.Domain.dll
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.Server.DB.Context\bin\Debug\Sagua.Server.DB.Models.pdb
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.Server.DB.Context\bin\Debug\Sagua.Global.Domain.pdb
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.Server.DB.Context\obj\Debug\Sagua.Server.DB.Context.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.Server.DB.Context\obj\Debug\Sagua.Server.DB.Context.dll
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.Server.DB.Context\obj\Debug\Sagua.Server.DB.Context.pdb

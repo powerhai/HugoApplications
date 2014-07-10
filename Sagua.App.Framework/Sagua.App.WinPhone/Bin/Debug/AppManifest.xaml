@@ -1,5 +1,19 @@
-﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="Sagua.App.WinPhone" EntryPointType="Sagua.App.WinPhone.App" RuntimeVersion="4.7.50308.0">
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="Sagua.App.WinPhone" EntryPointType="Sagua.App.WinPhone.App" RuntimeVersion="6.7.50308.0">
   <Deployment.Parts>
     <AssemblyPart x:Name="Sagua.App.WinPhone" Source="Sagua.App.WinPhone.dll" />
+    <AssemblyPart x:Name="Coding4Fun.Toolkit.Controls" Source="Coding4Fun.Toolkit.Controls.dll" />
+    <AssemblyPart x:Name="Microsoft.Phone.Controls.Toolkit" Source="Microsoft.Phone.Controls.Toolkit.dll" />
+    <AssemblyPart x:Name="Sagua.App.Components" Source="Sagua.App.Components.dll" />
+    <AssemblyPart x:Name="Sagua.App.Controls" Source="Sagua.App.Controls.dll" />
+    <AssemblyPart x:Name="Sagua.App.Core" Source="Sagua.App.Core.dll" />
+    <AssemblyPart x:Name="WriteableBitmapExWinPhone" Source="WriteableBitmapExWinPhone.dll" />
+    <AssemblyPart x:Name="Xamarin.Forms.Core" Source="Xamarin.Forms.Core.dll" />
+    <AssemblyPart x:Name="Xamarin.Forms.Platform.WP8" Source="Xamarin.Forms.Platform.WP8.dll" />
+    <AssemblyPart x:Name="Xamarin.Forms.Xaml" Source="Xamarin.Forms.Xaml.dll" />
+    <AssemblyPart x:Name="Xamarin.Mobile" Source="Xamarin.Mobile.dll" />
+    <AssemblyPart x:Name="zxing.wp8.0" Source="zxing.wp8.0.dll" />
+    <AssemblyPart x:Name="ZXingNetMobile" Source="ZXingNetMobile.dll" />
+    <AssemblyPart x:Name="Sagua.App.Common" Source="Sagua.App.Common.dll" />
+    <AssemblyPart x:Name="Sagua.Global.Common" Source="Sagua.Global.Common.dll" />
   </Deployment.Parts>
 </Deployment>
