@@ -3,3 +3,5 @@
 /Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.Global.Models/bin/Debug/Sagua.Global.Models.dll
 /Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.Global.Models/obj/Debug/Sagua.Global.Models.dll
 /Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.Global.Models/obj/Debug/Sagua.Global.Models.dll.mdb
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.Global.Models/bin/Debug/Sagua.Global.Common.dll
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.Global.Models/bin/Debug/Sagua.Global.Common.dll.mdb

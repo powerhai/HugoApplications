@@ -3,6 +3,9 @@ using Sagua.App.Common;
 using Xamarin.Forms;
 using System.Collections.ObjectModel;
 using Sagua.App.Components;
+using RestSharp.Portable;
+using Sagua.Global.Models.RestPostModels;
+using Sagua.Global.Models.RestResults;
 
 namespace Sagua.App.Core
 {
@@ -12,10 +15,10 @@ namespace Sagua.App.Core
 
 		public TestLibViewModel (Page page):base(page)
 		{
-			Commands = new ObservableCollection<string>{ "Scan QR barcode", "Get QR barcode", "call phone", "send sms" , "progress dialog","take a photo","get a photo"};
+			Commands = new ObservableCollection<string>{ "Scan QR barcode", "Get QR barcode", "call phone", "send sms" , "progress dialog","take a photo","get a photo","get doctor", "post photo"};
 		}
 
-		public void DoCommand(string index)
+		public async void DoCommand(string index)
 		{
 			switch (index) {
 				case( "Scan QR barcode"):
@@ -53,6 +56,26 @@ namespace Sagua.App.Core
 					DependencyService.Get<IPhotoService> ().FromCamera();
 					break;
 				}
+            case ("get doctor"):
+			    {
+					var client = new RestClient(new Uri("http://192.168.1.107"));
+					var request = new RestRequest ("/Sagua/Doctor/GetDoctorById");
+					request.AddBody (new GetDoctorByIdPostModel (){ Id = 3});
+					var result = await client.Execute<GetDoctorByIdResults>(request); 
+					Page.DisplayAlert ("ok", result.Data.Name, "ok", "no");
+			        break;
+			    }
+			case ("post photo"):
+				{
+					var client = new RestClient(new Uri("http://192.168.1.107"));
+					var request = new RestRequest ("/Sagua/Doctor/SetDoctorPhoto");					 
+					request.AddParameter ("Id", "3");
+					request.AddFile ("image", new byte[]{ 0x01, 0x02, 0x03, 0x04 }, "ok.file");
+					var result = await client.Execute<SetDoctorPhotoResults>(request); 
+					Page.DisplayAlert ("ok", result.Data.Info, "ok", "no");
+					break;
+				}
+
 			}
 		}
 

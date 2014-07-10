@@ -6,3 +6,6 @@
 \\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.Global.Models\bin\Debug\Sagua.Global.Models.pdb
 \\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.Global.Models\obj\Debug\Sagua.Global.Models.dll
 \\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.Global.Models\obj\Debug\Sagua.Global.Models.pdb
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.Global.Models\bin\Debug\Sagua.Global.Common.dll
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.Global.Models\bin\Debug\Sagua.Global.Common.pdb
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.Global.Models\obj\Debug\Sagua.Global.Models.csprojResolveAssemblyReference.cache

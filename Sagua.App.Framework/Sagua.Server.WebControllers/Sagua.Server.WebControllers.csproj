@@ -45,11 +45,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\DoctorController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebControllerFactory.cs" />
     <Compile Include="Controllers\HomeController.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Sagua.Global.Common\Sagua.Global.Common.csproj">
+      <Project>{75F85348-7583-432F-ACF5-889CD2A9A856}</Project>
+      <Name>Sagua.Global.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sagua.Global.Models\Sagua.Global.Models.csproj">
+      <Project>{30FE5F7A-88C8-4435-A30B-9E1B5AAC1D2D}</Project>
+      <Name>Sagua.Global.Models</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Sagua.Server.DB.Context\Sagua.Server.DB.Context.csproj">
       <Project>{FB36C288-1C4A-4AD8-8F91-EE48F281517C}</Project>
       <Name>Sagua.Server.DB.Context</Name>

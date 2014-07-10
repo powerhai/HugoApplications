@@ -1,11 +1,10 @@
-﻿using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using Sagua.Server.DB.Context;
 using Sagua.Server.DB.Models;
 
 namespace Sagua.Server.WebControllers.Controllers
 {
-	public class HomeController : Controller
+    public class HomeController : Controller
 	{
 		public ActionResult Index ()
 		{

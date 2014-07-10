@@ -30,3 +30,7 @@
 \\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.Server.WebServer\obj\Debug\Sagua.Server.WebServer.csprojResolveAssemblyReference.cache
 \\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.Server.WebServer\obj\Debug\Sagua.Server.WebServer.dll
 \\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.Server.WebServer\obj\Debug\Sagua.Server.WebServer.pdb
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.Server.WebServer\bin\Sagua.Global.Models.dll
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.Server.WebServer\bin\Sagua.Global.Common.dll
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.Server.WebServer\bin\Sagua.Global.Models.pdb
+\\vmware-host\Shared Folders\HugoApplications\Sagua.App.Framework\Sagua.Server.WebServer\bin\Sagua.Global.Common.pdb
