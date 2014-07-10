@@ -82,3 +82,12 @@
 \\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.App.WinPhone\Bin\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
 \\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.App.WinPhone\Bin\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
 \\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.App.WinPhone\obj\Debug\Jingying.App.WinPhone.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.App.WinPhone\Bin\Debug\Coding4Fun.Toolkit.Controls.dll
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.App.WinPhone\Bin\Debug\WriteableBitmapExWinPhone.dll
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.App.WinPhone\Bin\Debug\Xamarin.Mobile.dll
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.App.WinPhone\Bin\Debug\zxing.wp8.0.dll
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.App.WinPhone\Bin\Debug\ZXingNetMobile.dll
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.App.WinPhone\Bin\Debug\Xamarin.Mobile.xml
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.App.WinPhone\Bin\Debug\zxing.wp8.0.pdb
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.App.WinPhone\Bin\Debug\zxing.wp8.0.xml
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.App.WinPhone\Bin\Debug\ZXingNetMobile.pdb

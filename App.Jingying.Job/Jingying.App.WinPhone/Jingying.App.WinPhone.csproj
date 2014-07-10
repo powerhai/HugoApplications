@@ -157,8 +157,14 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Coding4Fun.Toolkit.Controls">
+      <HintPath>..\packages\Coding4Fun.Toolkit.Controls.2.0.7\lib\windowsphone8\Coding4Fun.Toolkit.Controls.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Phone.Controls.Toolkit">
       <HintPath>..\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="WriteableBitmapExWinPhone">
+      <HintPath>..\packages\ZXing.Net.Mobile.1.4.5\lib\wp8\WriteableBitmapExWinPhone.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Forms.Core">
       <HintPath>..\packages\Xamarin.Forms.1.1.1.6206\lib\WP80\Xamarin.Forms.Core.dll</HintPath>
@@ -169,13 +175,28 @@
     <Reference Include="Xamarin.Forms.Xaml">
       <HintPath>..\packages\Xamarin.Forms.1.1.1.6206\lib\WP80\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
+    <Reference Include="Xamarin.Mobile">
+      <HintPath>..\..\lib\wp8\Xamarin.Mobile.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.wp8.0">
+      <HintPath>..\packages\ZXing.Net.Mobile.1.4.5\lib\wp8\zxing.wp8.0.dll</HintPath>
+    </Reference>
+    <Reference Include="ZXingNetMobile">
+      <HintPath>..\packages\ZXing.Net.Mobile.1.4.5\lib\wp8\ZXingNetMobile.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Sagua.App.Framework\Sagua.App.Components\Sagua.App.Components.csproj">
+      <Project>{6c8ce10c-42d4-4572-a67e-74407a8a69d9}</Project>
+      <Name>Sagua.App.Components</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Jingying.App.Core\Jingying.App.Core.csproj">
       <Project>{121F8441-7D24-4DC7-A1E0-9D430B37B390}</Project>
       <Name>Jingying.App.Core</Name>
     </ProjectReference>
   </ItemGroup>
+  <Import Project="..\..\Sagua.App.Framework\Sagua.App.Components.WinPhone\Sagua.App.Components.WinPhone.projitems" Label="Shared" Condition="Exists('..\..\Sagua.App.Framework\Sagua.App.Components.WinPhone\Sagua.App.Components.WinPhone.projitems')" />
+  <Import Project="..\..\Sagua.App.Framework\Sagua.App.Components.WinPhone\Sagua.App.Components.WinPhone.projitems" Label="Shared" Condition="Exists('..\..\Sagua.App.Framework\Sagua.App.Components.WinPhone\Sagua.App.Components.WinPhone.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

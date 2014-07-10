@@ -59,7 +59,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Jingying.Server.DB.Models\Jingying.Server.DB.Models.csproj">
       <Project>{CAC3FD80-4CB2-4C2E-B34B-9858376F59C1}</Project>
-      <Name>Sagua.Server.DB.Models</Name>
+      <Name>Jingying.Server.DB.Models</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

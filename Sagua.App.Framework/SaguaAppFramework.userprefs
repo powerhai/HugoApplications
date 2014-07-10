@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhoneRetina.7.1" />
   <MonoDevelop.Ide.Workbench ActiveDocument="../App.Jingying.Job/Jingying.App.WinPhone/App.xaml.cs">
     <Files>
-      <File FileName="../App.Jingying.Job/Jingying.App.WinPhone/MainPage.xaml.cs" Line="21" Column="75" />
+      <File FileName="../App.Jingying.Job/Jingying.App.WinPhone/MainPage.xaml.cs" Line="1" Column="1" />
       <File FileName="../App.Jingying.Job/Jingying.App.WinPhone/App.xaml.cs" Line="145" Column="37" />
     </Files>
   </MonoDevelop.Ide.Workbench>
