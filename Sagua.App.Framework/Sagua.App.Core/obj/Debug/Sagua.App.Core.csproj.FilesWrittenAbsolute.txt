@@ -23,6 +23,13 @@
 /Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.Core/obj/Debug/Sagua.App.Core.dll.mdb
 /Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.Core/bin/Debug/Xamarin.Forms.Core.dll
 /Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.Core/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.Core/bin/Debug/Microsoft.Threading.Tasks.dll
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.Core/bin/Debug/Microsoft.Threading.Tasks.Extensions.dll
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.Core/bin/Debug/System.Net.Http.dll
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.Core/bin/Debug/System.Net.Http.Primitives.dll
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.Core/bin/Debug/System.Net.Http.Extensions.dll
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.Core/bin/Debug/Newtonsoft.Json.dll
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.Core/bin/Debug/RestSharp.Portable.dll
 /Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.Core/bin/Debug/Sagua.App.Controls.dll
 /Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.Core/bin/Debug/Sagua.App.Controls.dll.mdb
 /Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.Core/bin/Debug/Sagua.App.Common.dll
@@ -35,10 +42,3 @@
 /Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.Core/bin/Debug/Sagua.Global.Domain.dll.mdb
 /Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.Core/bin/Debug/Sagua.Global.Models.dll
 /Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.Core/bin/Debug/Sagua.Global.Models.dll.mdb
-/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.Core/bin/Debug/Microsoft.Threading.Tasks.dll
-/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.Core/bin/Debug/Microsoft.Threading.Tasks.Extensions.dll
-/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.Core/bin/Debug/System.Net.Http.dll
-/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.Core/bin/Debug/System.Net.Http.Primitives.dll
-/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.Core/bin/Debug/System.Net.Http.Extensions.dll
-/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.Core/bin/Debug/Newtonsoft.Json.dll
-/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.Core/bin/Debug/RestSharp.Portable.dll

@@ -20,6 +20,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)Barcode\BarCodeScanner.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Barcode\BarCodeBuilder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DeviceInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)QQ_OAuth.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Weibo_OAuth.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Barcode\" />

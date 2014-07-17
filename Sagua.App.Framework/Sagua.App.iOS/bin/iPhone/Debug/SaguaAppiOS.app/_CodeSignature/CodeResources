@@ -6,19 +6,55 @@
 	<dict>
 		<key>BTProgressHUD.dll</key>
 		<data>
-		xigOywl/jshBzRMvk89ptoNRJ3A=
+		RTUIpRS5afOF7xtUUcdELYpUDgg=
+		</data>
+		<key>BindingQQLibrary.dll</key>
+		<data>
+		BKbzr/HEEILpedKOS3r2tWw8Xfg=
+		</data>
+		<key>BindingQQLibrary.dll.mdb</key>
+		<data>
+		6X6orxduCNFQyB9pZdyaLQnYgVo=
+		</data>
+		<key>BindingWeiboLibrary.dll</key>
+		<data>
+		cMreVZHsQ32iyBxAkDg9zEMCTiY=
+		</data>
+		<key>BindingWeiboLibrary.dll.mdb</key>
+		<data>
+		1hV3/p8XkUS1aBcq0BdKPCsWxPM=
 		</data>
 		<key>Default-568h@2x.png</key>
 		<data>
 		h4KgJgWpxdjfyoXM+WlZS2uDdqs=
 		</data>
+		<key>Microsoft.CSharp.dll</key>
+		<data>
+		0YWEaHDHzFHCu19T9BycpS0GLxo=
+		</data>
+		<key>Microsoft.CSharp.dll.mdb</key>
+		<data>
+		HSr+T/VbDFf8uzMQHZ3MZldSMTE=
+		</data>
+		<key>Microsoft.Threading.Tasks.dll</key>
+		<data>
+		RLJ2nX+9whlUzdNcNl4PLJ+Xa3s=
+		</data>
+		<key>Mono.CSharp.dll</key>
+		<data>
+		fBVBkYuUhXGl3D1VAl44Zd5gIEk=
+		</data>
+		<key>Mono.CSharp.dll.mdb</key>
+		<data>
+		MbekzvUH6GVneWdWQYZv6mG2EFY=
+		</data>
 		<key>Mono.Dynamic.Interpreter.dll</key>
 		<data>
-		4j++d0YblqZad+BYqAiEkdjearM=
+		lP+4+a13JadTqFRp1PUARbcVvIU=
 		</data>
 		<key>Mono.Dynamic.Interpreter.dll.mdb</key>
 		<data>
-		kT6kS/MnhUwC+g/X43pgbfpOb0U=
+		tg3ZXVSwoEaSIORyDcZcLNfMdwg=
 		</data>
 		<key>MonoTouchDebugConfiguration.txt</key>
 		<data>
@@ -28,57 +64,73 @@
 		<data>
 		udRFZiUn5Wu+JuryWRjPAicxwsE=
 		</data>
+		<key>Newtonsoft.Json.dll</key>
+		<data>
+		TQj81mu0WBiAxOTmq4xve9CVkUU=
+		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>RestSharp.Portable.dll</key>
+		<data>
+		JsaE2J8g9ye7CQwggoPDU/rrUIM=
+		</data>
 		<key>Sagua.App.Common.dll</key>
 		<data>
-		skAOtdsTxq5jPOadoLikJcWCwIU=
+		6PhN+LH7t+5ovQOV4oV09ptyN8I=
 		</data>
 		<key>Sagua.App.Common.dll.mdb</key>
 		<data>
-		1GBjcFCxRBck/WRZbjhVmyAqoUA=
+		oTXsoq8Xh+avZljkD7JywCC/KFg=
 		</data>
 		<key>Sagua.App.Components.dll</key>
 		<data>
-		JmKp0xL0gmuzpESezAnfvkpFr9U=
+		4MX4OHVQEkQkZBYCjU83DA4CJqw=
 		</data>
 		<key>Sagua.App.Components.dll.mdb</key>
 		<data>
-		Cr9tlsLgAUL3ArdX4iKXZWaRnSM=
+		zG/Tlhs54+iqD6OqW0wS4RWeZcI=
 		</data>
 		<key>Sagua.App.Controls.dll</key>
 		<data>
-		/fVr4Ixx4pb8ycjXubp0KXermoc=
+		9vc52AwjDYgzQr4spG1diMWK5fE=
 		</data>
 		<key>Sagua.App.Controls.dll.mdb</key>
 		<data>
-		4BCMk11phTzxCRP7XIzpJcwioUM=
+		VzkutDRfZzEdYKenQ2TSbXiqfd4=
 		</data>
 		<key>Sagua.App.Core.dll</key>
 		<data>
-		db+tKJECfdIReC40MLs+Z+5ARq8=
+		Tv6b8NI7ZbQ7G6ckXqi3s59qRDs=
 		</data>
 		<key>Sagua.App.Core.dll.mdb</key>
 		<data>
-		SDBG0qQncQXso2G4a/rPkJ2BZQM=
+		2Cgct1WAXzd1CLCFbkRKHJjYXeE=
 		</data>
 		<key>Sagua.Global.Common.dll</key>
 		<data>
-		5WK7Iqwqv9evLgOvlf09loStzUI=
+		C+7svPZ3PFfg3atyvApe4yp8Yik=
 		</data>
 		<key>Sagua.Global.Common.dll.mdb</key>
 		<data>
-		1OnV2onXH6lxqljtXTF99ntzaTY=
+		9mDWYgqRJuKH7akJ9KhRvfnuuaA=
+		</data>
+		<key>Sagua.Global.Models.dll</key>
+		<data>
+		8Sp3SbrmCvzBBVsMa6yV90jtC14=
+		</data>
+		<key>Sagua.Global.Models.dll.mdb</key>
+		<data>
+		/VfR43FToT1aUzNPHQX1XZOxfuY=
 		</data>
 		<key>SaguaAppFrameworkiOS.exe</key>
 		<data>
-		jQxKlXolLeySB6oFLotlCk9uWG0=
+		FFzRy9z2Cl+lww4foJ/oa1oqCos=
 		</data>
 		<key>SaguaAppFrameworkiOS.exe.mdb</key>
 		<data>
-		2cnZlYnNlVHlgfAAOhjbxxVItzU=
+		XPBIFWtFhE8MZI4yPRqIUHIeX0I=
 		</data>
 		<key>Settings.bundle/Root.plist</key>
 		<data>
@@ -86,47 +138,99 @@
 		</data>
 		<key>System.Core.dll</key>
 		<data>
-		+OrC7N/4D01IvKnOdZ26Dmh1qKI=
+		FNSOC25rpUArWR3dcicWRkdDMiE=
 		</data>
 		<key>System.Core.dll.mdb</key>
 		<data>
-		0ooa3H3Tj0VQSneGkWunK7X3r4I=
+		S2/uJmI4e8dKG2JZ8feWz96BQho=
+		</data>
+		<key>System.Net.Http.Primitives.dll</key>
+		<data>
+		dl/nxG+11RncFQ/CjFY3vWlDQfM=
 		</data>
 		<key>System.Net.Http.dll</key>
 		<data>
-		Sovl0hefJxKOcBrt7oexOOyzQ8I=
+		lZ/IJ+ZeOIresdbgKkSycCkmQ0U=
 		</data>
 		<key>System.Net.Http.dll.mdb</key>
 		<data>
-		Nn1x9viWhwC3u4jjqEQV3epvOn4=
+		2MchGHT3y7lsp0xQJe8Lw3wOpFg=
 		</data>
 		<key>System.Numerics.dll</key>
 		<data>
-		G5i0ROEeXVQ7r8Oc5JcxD5DH7Oc=
+		RRz6u0w5u8DrOzpQv0V/PPoAHgI=
 		</data>
 		<key>System.Numerics.dll.mdb</key>
 		<data>
-		IfTi/+fMQ6tXPf0kVZTzOqhlamE=
+		SrG4l9vfsaM2a/VIrop4GmAF/Y8=
+		</data>
+		<key>System.Runtime.Serialization.dll</key>
+		<data>
+		EXVbwaYRV47Ae04Tkg1e4O0vyaM=
+		</data>
+		<key>System.Runtime.Serialization.dll.mdb</key>
+		<data>
+		AcXYV6IBf4XxXIBfh2qAZuXGQ80=
+		</data>
+		<key>System.Xml.Linq.dll</key>
+		<data>
+		0wox2cJQJ8uVbjcrmlmsjzXGjus=
+		</data>
+		<key>System.Xml.Linq.dll.mdb</key>
+		<data>
+		OLrjdCTF+zk+onACSOxmSILPt4c=
 		</data>
 		<key>System.Xml.dll</key>
 		<data>
-		dHUQZIbVlbJahX/OM8V6MkxLBmU=
+		Tj98J1GAbXRnIKusknMEMak1v88=
 		</data>
 		<key>System.Xml.dll.mdb</key>
 		<data>
-		fsMCg1w7jWdS6c6tZvjXn10J3vI=
+		dBdUo+lZ/QsQPIB5a298ldvf4Vg=
 		</data>
 		<key>System.dll</key>
 		<data>
-		t5UmwaabW8Wu4Vv7XmNRKHC1lrs=
+		MAjhD+gnBqU9LvqeLTisQ8xB3U8=
 		</data>
 		<key>System.dll.mdb</key>
 		<data>
-		TXmPYb9KNBpxeoIdrUSSF0lHWMk=
+		HqQEZzEnGjSAXmLNza+f2zBbEsQ=
+		</data>
+		<key>TencentOpenApi_IOS_Bundle.bundle/error.png</key>
+		<data>
+		lE6HVRWTNcbl/H/551a0SJGgvDU=
+		</data>
+		<key>TencentOpenApi_IOS_Bundle.bundle/js.zip</key>
+		<data>
+		48jMjcD3eZ3E3lRqarHKJB6LVfs=
+		</data>
+		<key>TencentOpenApi_IOS_Bundle.bundle/local.html</key>
+		<data>
+		XQbLxFX+wPWR9plOn451xQHm4YA=
+		</data>
+		<key>TencentOpenApi_IOS_Bundle.bundle/public_key.der</key>
+		<data>
+		dE3y3i91ySMxNrjGgCEqnszUW0g=
+		</data>
+		<key>TencentOpenApi_IOS_Bundle.bundle/qqicon.png</key>
+		<data>
+		bKCi641iRnJMix2uh9xNGwBODt4=
+		</data>
+		<key>TencentOpenApi_IOS_Bundle.bundle/success.png</key>
+		<data>
+		HzVLiMbCKqmJewuPsHSehTjKXCY=
+		</data>
+		<key>WeiboSDK.bundle/images/close.png</key>
+		<data>
+		OXSaUDx4K33CmRZOPIO3fTc5oP4=
+		</data>
+		<key>WeiboSDK.bundle/images/close@2x.png</key>
+		<data>
+		I5RdmaMGlmjXWytA78QLQHComZM=
 		</data>
 		<key>Xamarin.Forms.Core.dll</key>
 		<data>
-		mssF/P8FRL2RP1csH9v52Wg15uM=
+		wjTwzfC5FOXWt4j36zmNvoDIlB8=
 		</data>
 		<key>Xamarin.Forms.Platform.iOS.dll</key>
 		<data>
@@ -134,7 +238,7 @@
 		</data>
 		<key>Xamarin.Forms.Xaml.dll</key>
 		<data>
-		XoKj3RcNORHliNZWW0uHiVJCxeE=
+		Ixvc6zcsmm/WJtR5Sd2CN8Zl3LA=
 		</data>
 		<key>Xamarin.Mobile.dll</key>
 		<data>
@@ -166,19 +270,19 @@
 		</data>
 		<key>monotouch.dll</key>
 		<data>
-		d2RDKe0H8W456V364wUGfI3TYec=
+		Wlehq4TlozWBXUOFYWAbbl/IcZA=
 		</data>
 		<key>monotouch.dll.mdb</key>
 		<data>
-		/mC+f+UJ6M6z18o+sNmcuB9/4xs=
+		nOWAXKzXbY/vInmmKQar+voGbNE=
 		</data>
 		<key>mscorlib.dll</key>
 		<data>
-		PI1Squu69bSQSdDmYqPum8UdlvM=
+		2gHnWzKnLPNqyLO0zISzS53e9gI=
 		</data>
 		<key>mscorlib.dll.mdb</key>
 		<data>
-		a3hH1hqAPpGcDRAkDfFLYuNTAiw=
+		9gaSqe/WtbSElCpYqBd0cSvH0Mw=
 		</data>
 		<key>success.png</key>
 		<data>
@@ -213,19 +317,55 @@
 	<dict>
 		<key>BTProgressHUD.dll</key>
 		<data>
-		xigOywl/jshBzRMvk89ptoNRJ3A=
+		RTUIpRS5afOF7xtUUcdELYpUDgg=
+		</data>
+		<key>BindingQQLibrary.dll</key>
+		<data>
+		BKbzr/HEEILpedKOS3r2tWw8Xfg=
+		</data>
+		<key>BindingQQLibrary.dll.mdb</key>
+		<data>
+		6X6orxduCNFQyB9pZdyaLQnYgVo=
+		</data>
+		<key>BindingWeiboLibrary.dll</key>
+		<data>
+		cMreVZHsQ32iyBxAkDg9zEMCTiY=
+		</data>
+		<key>BindingWeiboLibrary.dll.mdb</key>
+		<data>
+		1hV3/p8XkUS1aBcq0BdKPCsWxPM=
 		</data>
 		<key>Default-568h@2x.png</key>
 		<data>
 		h4KgJgWpxdjfyoXM+WlZS2uDdqs=
 		</data>
+		<key>Microsoft.CSharp.dll</key>
+		<data>
+		0YWEaHDHzFHCu19T9BycpS0GLxo=
+		</data>
+		<key>Microsoft.CSharp.dll.mdb</key>
+		<data>
+		HSr+T/VbDFf8uzMQHZ3MZldSMTE=
+		</data>
+		<key>Microsoft.Threading.Tasks.dll</key>
+		<data>
+		RLJ2nX+9whlUzdNcNl4PLJ+Xa3s=
+		</data>
+		<key>Mono.CSharp.dll</key>
+		<data>
+		fBVBkYuUhXGl3D1VAl44Zd5gIEk=
+		</data>
+		<key>Mono.CSharp.dll.mdb</key>
+		<data>
+		MbekzvUH6GVneWdWQYZv6mG2EFY=
+		</data>
 		<key>Mono.Dynamic.Interpreter.dll</key>
 		<data>
-		4j++d0YblqZad+BYqAiEkdjearM=
+		lP+4+a13JadTqFRp1PUARbcVvIU=
 		</data>
 		<key>Mono.Dynamic.Interpreter.dll.mdb</key>
 		<data>
-		kT6kS/MnhUwC+g/X43pgbfpOb0U=
+		tg3ZXVSwoEaSIORyDcZcLNfMdwg=
 		</data>
 		<key>MonoTouchDebugConfiguration.txt</key>
 		<data>
@@ -235,57 +375,73 @@
 		<data>
 		udRFZiUn5Wu+JuryWRjPAicxwsE=
 		</data>
+		<key>Newtonsoft.Json.dll</key>
+		<data>
+		TQj81mu0WBiAxOTmq4xve9CVkUU=
+		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>RestSharp.Portable.dll</key>
+		<data>
+		JsaE2J8g9ye7CQwggoPDU/rrUIM=
+		</data>
 		<key>Sagua.App.Common.dll</key>
 		<data>
-		skAOtdsTxq5jPOadoLikJcWCwIU=
+		6PhN+LH7t+5ovQOV4oV09ptyN8I=
 		</data>
 		<key>Sagua.App.Common.dll.mdb</key>
 		<data>
-		1GBjcFCxRBck/WRZbjhVmyAqoUA=
+		oTXsoq8Xh+avZljkD7JywCC/KFg=
 		</data>
 		<key>Sagua.App.Components.dll</key>
 		<data>
-		JmKp0xL0gmuzpESezAnfvkpFr9U=
+		4MX4OHVQEkQkZBYCjU83DA4CJqw=
 		</data>
 		<key>Sagua.App.Components.dll.mdb</key>
 		<data>
-		Cr9tlsLgAUL3ArdX4iKXZWaRnSM=
+		zG/Tlhs54+iqD6OqW0wS4RWeZcI=
 		</data>
 		<key>Sagua.App.Controls.dll</key>
 		<data>
-		/fVr4Ixx4pb8ycjXubp0KXermoc=
+		9vc52AwjDYgzQr4spG1diMWK5fE=
 		</data>
 		<key>Sagua.App.Controls.dll.mdb</key>
 		<data>
-		4BCMk11phTzxCRP7XIzpJcwioUM=
+		VzkutDRfZzEdYKenQ2TSbXiqfd4=
 		</data>
 		<key>Sagua.App.Core.dll</key>
 		<data>
-		db+tKJECfdIReC40MLs+Z+5ARq8=
+		Tv6b8NI7ZbQ7G6ckXqi3s59qRDs=
 		</data>
 		<key>Sagua.App.Core.dll.mdb</key>
 		<data>
-		SDBG0qQncQXso2G4a/rPkJ2BZQM=
+		2Cgct1WAXzd1CLCFbkRKHJjYXeE=
 		</data>
 		<key>Sagua.Global.Common.dll</key>
 		<data>
-		5WK7Iqwqv9evLgOvlf09loStzUI=
+		C+7svPZ3PFfg3atyvApe4yp8Yik=
 		</data>
 		<key>Sagua.Global.Common.dll.mdb</key>
 		<data>
-		1OnV2onXH6lxqljtXTF99ntzaTY=
+		9mDWYgqRJuKH7akJ9KhRvfnuuaA=
+		</data>
+		<key>Sagua.Global.Models.dll</key>
+		<data>
+		8Sp3SbrmCvzBBVsMa6yV90jtC14=
+		</data>
+		<key>Sagua.Global.Models.dll.mdb</key>
+		<data>
+		/VfR43FToT1aUzNPHQX1XZOxfuY=
 		</data>
 		<key>SaguaAppFrameworkiOS.exe</key>
 		<data>
-		jQxKlXolLeySB6oFLotlCk9uWG0=
+		FFzRy9z2Cl+lww4foJ/oa1oqCos=
 		</data>
 		<key>SaguaAppFrameworkiOS.exe.mdb</key>
 		<data>
-		2cnZlYnNlVHlgfAAOhjbxxVItzU=
+		XPBIFWtFhE8MZI4yPRqIUHIeX0I=
 		</data>
 		<key>Settings.bundle/Root.plist</key>
 		<data>
@@ -293,47 +449,99 @@
 		</data>
 		<key>System.Core.dll</key>
 		<data>
-		+OrC7N/4D01IvKnOdZ26Dmh1qKI=
+		FNSOC25rpUArWR3dcicWRkdDMiE=
 		</data>
 		<key>System.Core.dll.mdb</key>
 		<data>
-		0ooa3H3Tj0VQSneGkWunK7X3r4I=
+		S2/uJmI4e8dKG2JZ8feWz96BQho=
+		</data>
+		<key>System.Net.Http.Primitives.dll</key>
+		<data>
+		dl/nxG+11RncFQ/CjFY3vWlDQfM=
 		</data>
 		<key>System.Net.Http.dll</key>
 		<data>
-		Sovl0hefJxKOcBrt7oexOOyzQ8I=
+		lZ/IJ+ZeOIresdbgKkSycCkmQ0U=
 		</data>
 		<key>System.Net.Http.dll.mdb</key>
 		<data>
-		Nn1x9viWhwC3u4jjqEQV3epvOn4=
+		2MchGHT3y7lsp0xQJe8Lw3wOpFg=
 		</data>
 		<key>System.Numerics.dll</key>
 		<data>
-		G5i0ROEeXVQ7r8Oc5JcxD5DH7Oc=
+		RRz6u0w5u8DrOzpQv0V/PPoAHgI=
 		</data>
 		<key>System.Numerics.dll.mdb</key>
 		<data>
-		IfTi/+fMQ6tXPf0kVZTzOqhlamE=
+		SrG4l9vfsaM2a/VIrop4GmAF/Y8=
+		</data>
+		<key>System.Runtime.Serialization.dll</key>
+		<data>
+		EXVbwaYRV47Ae04Tkg1e4O0vyaM=
+		</data>
+		<key>System.Runtime.Serialization.dll.mdb</key>
+		<data>
+		AcXYV6IBf4XxXIBfh2qAZuXGQ80=
+		</data>
+		<key>System.Xml.Linq.dll</key>
+		<data>
+		0wox2cJQJ8uVbjcrmlmsjzXGjus=
+		</data>
+		<key>System.Xml.Linq.dll.mdb</key>
+		<data>
+		OLrjdCTF+zk+onACSOxmSILPt4c=
 		</data>
 		<key>System.Xml.dll</key>
 		<data>
-		dHUQZIbVlbJahX/OM8V6MkxLBmU=
+		Tj98J1GAbXRnIKusknMEMak1v88=
 		</data>
 		<key>System.Xml.dll.mdb</key>
 		<data>
-		fsMCg1w7jWdS6c6tZvjXn10J3vI=
+		dBdUo+lZ/QsQPIB5a298ldvf4Vg=
 		</data>
 		<key>System.dll</key>
 		<data>
-		t5UmwaabW8Wu4Vv7XmNRKHC1lrs=
+		MAjhD+gnBqU9LvqeLTisQ8xB3U8=
 		</data>
 		<key>System.dll.mdb</key>
 		<data>
-		TXmPYb9KNBpxeoIdrUSSF0lHWMk=
+		HqQEZzEnGjSAXmLNza+f2zBbEsQ=
+		</data>
+		<key>TencentOpenApi_IOS_Bundle.bundle/error.png</key>
+		<data>
+		lE6HVRWTNcbl/H/551a0SJGgvDU=
+		</data>
+		<key>TencentOpenApi_IOS_Bundle.bundle/js.zip</key>
+		<data>
+		48jMjcD3eZ3E3lRqarHKJB6LVfs=
+		</data>
+		<key>TencentOpenApi_IOS_Bundle.bundle/local.html</key>
+		<data>
+		XQbLxFX+wPWR9plOn451xQHm4YA=
+		</data>
+		<key>TencentOpenApi_IOS_Bundle.bundle/public_key.der</key>
+		<data>
+		dE3y3i91ySMxNrjGgCEqnszUW0g=
+		</data>
+		<key>TencentOpenApi_IOS_Bundle.bundle/qqicon.png</key>
+		<data>
+		bKCi641iRnJMix2uh9xNGwBODt4=
+		</data>
+		<key>TencentOpenApi_IOS_Bundle.bundle/success.png</key>
+		<data>
+		HzVLiMbCKqmJewuPsHSehTjKXCY=
+		</data>
+		<key>WeiboSDK.bundle/images/close.png</key>
+		<data>
+		OXSaUDx4K33CmRZOPIO3fTc5oP4=
+		</data>
+		<key>WeiboSDK.bundle/images/close@2x.png</key>
+		<data>
+		I5RdmaMGlmjXWytA78QLQHComZM=
 		</data>
 		<key>Xamarin.Forms.Core.dll</key>
 		<data>
-		mssF/P8FRL2RP1csH9v52Wg15uM=
+		wjTwzfC5FOXWt4j36zmNvoDIlB8=
 		</data>
 		<key>Xamarin.Forms.Platform.iOS.dll</key>
 		<data>
@@ -341,7 +549,7 @@
 		</data>
 		<key>Xamarin.Forms.Xaml.dll</key>
 		<data>
-		XoKj3RcNORHliNZWW0uHiVJCxeE=
+		Ixvc6zcsmm/WJtR5Sd2CN8Zl3LA=
 		</data>
 		<key>Xamarin.Mobile.dll</key>
 		<data>
@@ -373,19 +581,19 @@
 		</data>
 		<key>monotouch.dll</key>
 		<data>
-		d2RDKe0H8W456V364wUGfI3TYec=
+		Wlehq4TlozWBXUOFYWAbbl/IcZA=
 		</data>
 		<key>monotouch.dll.mdb</key>
 		<data>
-		/mC+f+UJ6M6z18o+sNmcuB9/4xs=
+		nOWAXKzXbY/vInmmKQar+voGbNE=
 		</data>
 		<key>mscorlib.dll</key>
 		<data>
-		PI1Squu69bSQSdDmYqPum8UdlvM=
+		2gHnWzKnLPNqyLO0zISzS53e9gI=
 		</data>
 		<key>mscorlib.dll.mdb</key>
 		<data>
-		a3hH1hqAPpGcDRAkDfFLYuNTAiw=
+		9gaSqe/WtbSElCpYqBd0cSvH0Mw=
 		</data>
 		<key>success.png</key>
 		<data>

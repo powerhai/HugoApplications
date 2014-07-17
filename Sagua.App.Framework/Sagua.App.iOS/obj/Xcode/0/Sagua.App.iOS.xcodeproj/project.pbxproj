@@ -1,0 +1,250 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C1DD6220000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 1FAEE2C00000000000000000 /* AppDelegate.h */; };
+		1DC2E6B30000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2153F3510000000000000000 /* MapKit.framework */; };
+		1E6594370000000000000000 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21F6A0D50000000000000000 /* Default-568h@2x.png */; };
+		21C3BDB90000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2554CA570000000000000000 /* Entitlements.plist */; };
+		24B5082D0000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284614CB0000000000000000 /* UIKit.framework */; };
+		266131940000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29F23E320000000000000000 /* CoreGraphics.framework */; };
+		270AB438196E8F1D002FF1FC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270AB437196E8F1D002FF1FC /* Security.framework */; };
+		270AB43A196E8F31002FF1FC /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 270AB439196E8F31002FF1FC /* libiconv.dylib */; };
+		270AB43C196E8F3E002FF1FC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270AB43B196E8F3E002FF1FC /* SystemConfiguration.framework */; };
+		270AB43E196E8F5E002FF1FC /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 270AB43D196E8F5E002FF1FC /* libsqlite3.dylib */; };
+		270AB440196E8F6A002FF1FC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270AB43F196E8F6A002FF1FC /* CoreTelephony.framework */; };
+		270AB442196E8F7A002FF1FC /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 270AB441196E8F7A002FF1FC /* libstdc++.dylib */; };
+		270AB444196E8F89002FF1FC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 270AB443196E8F89002FF1FC /* libz.dylib */; };
+		311E5B9E0000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AF683C0000000000000000 /* AppDelegate.m */; };
+		32F64F4B0000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36875BE90000000000000000 /* Foundation.framework */; };
+		3398FCCF0000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 372A096D0000000000000000 /* Info.plist */; };
+		FEE7EA300000000000000000 /* sssss.xib in Resources */ = {isa = PBXBuildFile; fileRef = 137F8B410000000000000000 /* sssss.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		137F8B410000000000000000 /* sssss.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = sssss.xib; sourceTree = "<group>"; };
+		168BBCF00000000000000000 /* Sagua.App.iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sagua.App.iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FAEE2C00000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2153F3510000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		21F6A0D50000000000000000 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2554CA570000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		270AB437196E8F1D002FF1FC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		270AB439196E8F31002FF1FC /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		270AB43B196E8F3E002FF1FC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		270AB43D196E8F5E002FF1FC /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		270AB43F196E8F6A002FF1FC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		270AB441196E8F7A002FF1FC /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		270AB443196E8F89002FF1FC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		284614CB0000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		29F23E320000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		34AF683C0000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36875BE90000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		372A096D0000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		117E7EAD0000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270AB444196E8F89002FF1FC /* libz.dylib in Frameworks */,
+				270AB442196E8F7A002FF1FC /* libstdc++.dylib in Frameworks */,
+				270AB440196E8F6A002FF1FC /* CoreTelephony.framework in Frameworks */,
+				270AB43E196E8F5E002FF1FC /* libsqlite3.dylib in Frameworks */,
+				266131940000000000000000 /* CoreGraphics.framework in Frameworks */,
+				270AB43C196E8F3E002FF1FC /* SystemConfiguration.framework in Frameworks */,
+				270AB43A196E8F31002FF1FC /* libiconv.dylib in Frameworks */,
+				270AB438196E8F1D002FF1FC /* Security.framework in Frameworks */,
+				24B5082D0000000000000000 /* UIKit.framework in Frameworks */,
+				1DC2E6B30000000000000000 /* MapKit.framework in Frameworks */,
+				32F64F4B0000000000000000 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C31A4870000000000000000 /* Sagua.App.iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1FAEE2C00000000000000000 /* AppDelegate.h */,
+				21F6A0D50000000000000000 /* Default-568h@2x.png */,
+				2554CA570000000000000000 /* Entitlements.plist */,
+				372A096D0000000000000000 /* Info.plist */,
+				137F8B410000000000000000 /* sssss.xib */,
+				369160190000000000000000 /* Supporting Files */,
+			);
+			name = Sagua.App.iOS;
+			sourceTree = "<group>";
+		};
+		26E4CA610000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				168BBCF00000000000000000 /* Sagua.App.iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3197F03B0000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				1C31A4870000000000000000 /* Sagua.App.iOS */,
+				3FDC22B30000000000000000 /* Frameworks */,
+				26E4CA610000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		369160190000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34AF683C0000000000000000 /* AppDelegate.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FDC22B30000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				270AB443196E8F89002FF1FC /* libz.dylib */,
+				270AB441196E8F7A002FF1FC /* libstdc++.dylib */,
+				270AB43F196E8F6A002FF1FC /* CoreTelephony.framework */,
+				270AB43D196E8F5E002FF1FC /* libsqlite3.dylib */,
+				270AB43B196E8F3E002FF1FC /* SystemConfiguration.framework */,
+				270AB439196E8F31002FF1FC /* libiconv.dylib */,
+				270AB437196E8F1D002FF1FC /* Security.framework */,
+				284614CB0000000000000000 /* UIKit.framework */,
+				2153F3510000000000000000 /* MapKit.framework */,
+				36875BE90000000000000000 /* Foundation.framework */,
+				29F23E320000000000000000 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3FEDC200000000000000000 /* Sagua.App.iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD8971600000000000000000 /* Build configuration list for PBXNativeTarget "Sagua.App.iOS" */;
+			buildPhases = (
+				3C1832F90000000000000000 /* Sources */,
+				117E7EAD0000000000000000 /* Frameworks */,
+				2502D2840000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sagua.App.iOS;
+			productName = Sagua.App.iOS;
+			productReference = 168BBCF00000000000000000 /* Sagua.App.iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CC7E8000000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 3D94649E0000000000000000 /* Build configuration list for PBXProject "Sagua.App.iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3197F03B0000000000000000;
+			productRefGroup = 26E4CA610000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3FEDC200000000000000000 /* Sagua.App.iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2502D2840000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6594370000000000000000 /* Default-568h@2x.png in Resources */,
+				3398FCCF0000000000000000 /* Info.plist in Resources */,
+				21C3BDB90000000000000000 /* Entitlements.plist in Resources */,
+				FEE7EA300000000000000000 /* sssss.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C1832F90000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C1DD6220000000000000000 /* AppDelegate.h in Sources */,
+				311E5B9E0000000000000000 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		32E13EC40000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = Sagua.App.iOS;
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+		3F1096430000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-fobjc-arc";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D94649E0000000000000000 /* Build configuration list for PBXProject "Sagua.App.iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1096430000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		BD8971600000000000000000 /* Build configuration list for PBXNativeTarget "Sagua.App.iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E13EC40000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CC7E8000000000000000000 /* Project object */;
+}

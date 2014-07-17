@@ -1,20 +1,24 @@
 # Version: 7.2.5.5 (87026b6)
-# [first argument, ignore] # /Users/hai/Desktop/Share/Sagua.App.Framework/Sagua.App.iOS/bin/iPhone/Debug/mtouch.exe
+# [first argument, ignore] # /Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.iOS/bin/iPhone/Debug/mtouch.exe
 /Developer/MonoTouch/usr/bin/mtouch \
 	-sdkroot \
 	/Applications/Xcode.app/Contents/Developer \
 	--cache \
-	/Users/hai/Desktop/Share/Sagua.App.Framework/Sagua.App.iOS/obj/iPhone/Debug/mtouch-cache \
+	/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.iOS/obj/iPhone/Debug/mtouch-cache \
 	--nomanifest \
 	--nosign \
 	-dev \
-	/Users/hai/Desktop/Share/Sagua.App.Framework/Sagua.App.iOS/bin/iPhone/Debug/SaguaAppiOS.app \
+	/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.iOS/bin/iPhone/Debug/SaguaAppiOS.app \
 	-r \
-	/Users/hai/Desktop/Share/Sagua.App.Framework/Sagua.App.Core/bin/Debug/Sagua.App.Core.dll \
+	/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.Core/bin/Debug/Sagua.App.Core.dll \
 	-r \
-	/Users/hai/Desktop/Share/Sagua.App.Framework/Sagua.App.Controls/bin/Debug/Sagua.App.Controls.dll \
+	/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.Controls/bin/Debug/Sagua.App.Controls.dll \
 	-r \
-	/Users/hai/Desktop/Share/Sagua.App.Framework/Sagua.App.Components/bin/Debug/Sagua.App.Components.dll \
+	/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.Components/bin/Debug/Sagua.App.Components.dll \
+	-r \
+	/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.BindingQQLibrary.iOS/bin/Debug/BindingQQLibrary.dll \
+	-r \
+	/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.BindingWeiboLibrary.iOS/bin/Debug/BindingWeiboLibrary.dll \
 	-r \
 	/Developer/MonoTouch/usr/lib/mono/2.1/System.dll \
 	-r \
@@ -24,19 +28,19 @@
 	-r \
 	/Developer/MonoTouch/usr/lib/mono/2.1/monotouch.dll \
 	-r \
-	/Users/hai/Desktop/Share/Sagua.App.Framework/packages/Xamarin.Forms.1.0.6186/lib/MonoTouch10/Xamarin.Forms.Platform.iOS.dll \
+	/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/packages/Xamarin.Forms.1.0.6186/lib/MonoTouch10/Xamarin.Forms.Platform.iOS.dll \
 	-r \
-	/Users/hai/Desktop/Share/Sagua.App.Framework/packages/Xamarin.Forms.1.0.6186/lib/MonoTouch10/Xamarin.Forms.Core.dll \
+	/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/packages/Xamarin.Forms.1.0.6186/lib/MonoTouch10/Xamarin.Forms.Core.dll \
 	-r \
-	/Users/hai/Desktop/Share/Sagua.App.Framework/packages/Xamarin.Forms.1.0.6186/lib/MonoTouch10/Xamarin.Forms.Xaml.dll \
+	/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/packages/Xamarin.Forms.1.0.6186/lib/MonoTouch10/Xamarin.Forms.Xaml.dll \
 	-r \
-	/Users/hai/Desktop/Share/Sagua.App.Framework/lib/ios/Xamarin.Mobile.dll \
+	/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/packages/ZXing.Net.Mobile.1.4.5/lib/MonoTouch/zxing.monotouch.dll \
 	-r \
-	/Users/hai/Desktop/Share/Sagua.App.Framework/lib/ios/BTProgressHUD.dll \
+	/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/packages/ZXing.Net.Mobile.1.4.5/lib/MonoTouch/ZXing.Net.Mobile.dll \
 	-r \
-	/Users/hai/Desktop/Share/Sagua.App.Framework/packages/ZXing.Net.Mobile.1.4.5/lib/MonoTouch/zxing.monotouch.dll \
+	/Users/hai/Desktop/Share/HugoApplications/lib/ios/BTProgressHUD.dll \
 	-r \
-	/Users/hai/Desktop/Share/Sagua.App.Framework/packages/ZXing.Net.Mobile.1.4.5/lib/MonoTouch/ZXing.Net.Mobile.dll \
+	/Users/hai/Desktop/Share/HugoApplications/lib/ios/Xamarin.Mobile.dll \
 	-debug \
 	-linksdkonly \
 	-sdk \
@@ -44,4 +48,5 @@
 	-targetver \
 	7.0 \
 	--abi=armv7 \
-	/Users/hai/Desktop/Share/Sagua.App.Framework/Sagua.App.iOS/bin/iPhone/Debug/SaguaAppFrameworkiOS.exe \
+	--registrar:legacy \
+	/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.iOS/bin/iPhone/Debug/SaguaAppFrameworkiOS.exe \

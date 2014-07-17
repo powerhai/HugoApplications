@@ -18,10 +18,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
-    <MtouchLink>None</MtouchLink>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchDebug>true</MtouchDebug>
     <AssemblyName>SaguaIOS</AssemblyName>
+    <MtouchI18n>
+    </MtouchI18n>
+    <MtouchArch>i386</MtouchArch>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>full</DebugType>
@@ -48,6 +50,12 @@
     <MtouchDebug>true</MtouchDebug>
     <CodesignKey>iPhone Developer</CodesignKey>
     <AssemblyName>SaguaAppFrameworkiOS</AssemblyName>
+    <IpaPackageName>
+    </IpaPackageName>
+    <MtouchI18n>
+    </MtouchI18n>
+    <MtouchArch>ARMv7</MtouchArch>
+    <MtouchExtraArgs>--registrar:legacy</MtouchExtraArgs>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>full</DebugType>
@@ -127,6 +135,14 @@
     <ProjectReference Include="..\Sagua.App.Components\Sagua.App.Components.csproj">
       <Project>{6C8CE10C-42D4-4572-A67E-74407A8A69D9}</Project>
       <Name>Sagua.App.Components</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sagua.App.BindingQQLibrary.iOS\Sagua.App.BindingQQLibrary.iOS.csproj">
+      <Project>{E6385861-8E96-41F2-95D3-191EF8BCFA6F}</Project>
+      <Name>Sagua.App.BindingQQLibrary.iOS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sagua.App.BindingWeiboLibrary.iOS\Sagua.App.BindingWeiboLibrary.iOS.csproj">
+      <Project>{F3DC991B-9DF7-43D9-9928-68C885C896CA}</Project>
+      <Name>Sagua.App.BindingWeiboLibrary.iOS</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

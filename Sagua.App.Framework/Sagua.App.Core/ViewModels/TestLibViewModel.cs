@@ -9,13 +9,13 @@ using Sagua.Global.Models.RestResults;
 
 namespace Sagua.App.Core
 {
-	public class TestLibViewModel: BaseViewModel
+	public class TestLibViewModel: BaseViewModel, QQSessionDelegate
 	{
 		public ObservableCollection<string> Commands { get; set; }
 
 		public TestLibViewModel (Page page):base(page)
 		{
-			Commands = new ObservableCollection<string>{ "Scan QR barcode", "Get QR barcode", "call phone", "send sms" , "progress dialog","take a photo","get a photo","get doctor", "post photo"};
+			Commands = new ObservableCollection<string>{"weibo login","qq login", "Scan QR barcode", "Get QR barcode", "call phone", "send sms" , "progress dialog","take a photo","get a photo","get doctor", "post photo"};
 		}
 
 		public async void DoCommand(string index)
@@ -75,10 +75,31 @@ namespace Sagua.App.Core
 					Page.DisplayAlert ("ok", result.Data.Info, "ok", "no");
 					break;
 				}
+			case("qq login"):
+				{
+					var qqlogin = DependencyService.Get<IQQ_OAuth> ();
+					qqlogin.Login ("100478302", this);
+					break;
+				}
+
+			case("weibo login"):
+				{
+					var weibologin = DependencyService.Get<IWeibo_OAuth> ();
+					weibologin.Login ("1781235272");
+					break;
+				}
 
 			}
-		}
+		} 
 
+		public void DidLogin (string openId, string accessToken, DateTime expirationDate)
+		{
+			Page.DisplayAlert (openId, accessToken + " " + expirationDate.ToString(),  "ok", "no");
+		}
+		public void GetUserInfo (string jsonData)
+		{
+			 
+		} 
 	}
 }
 

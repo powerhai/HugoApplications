@@ -15,5 +15,6 @@ namespace Sagua.App.Components
 		bool IsSimulator { get; }
  
 	}
+
 }
 

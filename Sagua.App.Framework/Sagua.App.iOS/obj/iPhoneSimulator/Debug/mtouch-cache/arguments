@@ -16,6 +16,10 @@
 	-r \
 	/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.Components/bin/Debug/Sagua.App.Components.dll \
 	-r \
+	/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.BindingQQLibrary.iOS/bin/Debug/BindingQQLibrary.dll \
+	-r \
+	/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.BindingWeiboLibrary.iOS/bin/Debug/BindingWeiboLibrary.dll \
+	-r \
 	/Developer/MonoTouch/usr/lib/mono/2.1/System.dll \
 	-r \
 	/Developer/MonoTouch/usr/lib/mono/2.1/System.Xml.dll \
@@ -38,7 +42,7 @@
 	-r \
 	/Users/hai/Desktop/Share/HugoApplications/lib/ios/Xamarin.Mobile.dll \
 	-debug \
-	-nolink \
+	-linksdkonly \
 	-sdk \
 	7.1 \
 	-targetver \

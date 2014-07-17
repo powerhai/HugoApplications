@@ -1,0 +1,222 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEECBF900000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137FD8970000000000000000 /* UIKit.framework */; };
+		31846F2C0000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35157BCA0000000000000000 /* MapKit.framework */; };
+		6B7D7C400000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48E46200000000000000000 /* Foundation.framework */; };
+		3A22BA0D0000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB3C6AB0000000000000000 /* CoreGraphics.framework */; };
+		2C17E2760000000000000000 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FA8EF140000000000000000 /* Default-568h@2x.png */; };
+		14B4B0E00000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DC57AC00000000000000000 /* Info.plist */; };
+		2F760BF80000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 330718960000000000000000 /* Entitlements.plist */; };
+		1DA0CCE20000000000000000 /* sssss.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2131D9800000000000000000 /* sssss.xib */; };
+		110BAF2B0000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 149CBBC90000000000000000 /* AppDelegate.h */; };
+		25A66E6F0000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29377B0D0000000000000000 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E1B02900000000000000000 /* Sagua.App.iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Sagua.App.iOS.app"; path = "Sagua.App.iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		137FD8970000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		35157BCA0000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		A48E46200000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		3DB3C6AB0000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		2FA8EF140000000000000000 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4DC57AC00000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		330718960000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		2131D9800000000000000000 /* sssss.xib */ = {isa = PBXFileReference; name = "sssss.xib"; path = "sssss.xib"; sourceTree = "<group>"; };
+		149CBBC90000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		29377B0D0000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5A9E7300000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEECBF900000000000000000 /* UIKit.framework in Frameworks */,
+				31846F2C0000000000000000 /* MapKit.framework in Frameworks */,
+				6B7D7C400000000000000000 /* Foundation.framework in Frameworks */,
+				3A22BA0D0000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E7410010000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				190DC44D0000000000000000 /* Sagua.App.iOS */,
+				392735DB0000000000000000 /* Frameworks */,
+				23C0EA270000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23C0EA270000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E1B02900000000000000000 /* Sagua.App.iOS.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		392735DB0000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				137FD8970000000000000000 /* UIKit.framework */,
+				35157BCA0000000000000000 /* MapKit.framework */,
+				A48E46200000000000000000 /* Foundation.framework */,
+				3DB3C6AB0000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		190DC44D0000000000000000 /* Sagua.App.iOS */ = {
+			isa = PBXGroup;
+			children = (
+				149CBBC90000000000000000 /* AppDelegate.h */,
+				2FA8EF140000000000000000 /* Default-568h@2x.png */,
+				330718960000000000000000 /* Entitlements.plist */,
+				4DC57AC00000000000000000 /* Info.plist */,
+				2131D9800000000000000000 /* sssss.xib */,
+				2788664C0000000000000000 /* Supporting Files */,
+			);
+			name = "Sagua.App.iOS";
+			sourceTree = "<group>";
+		};
+		2788664C0000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29377B0D0000000000000000 /* AppDelegate.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3106AD130000000000000000 /* Sagua.App.iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1367DCB60000000000000000 /* Build configuration list for PBXNativeTarget "Sagua.App.iOS" */;
+			buildPhases = (
+				3C855F5D0000000000000000 /* Sources */,
+				E5A9E7300000000000000000 /* Frameworks */,
+				256FFEE80000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sagua.App.iOS";
+			productName = "Sagua.App.iOS";
+			productReference = 1E1B02900000000000000000 /* Sagua.App.iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		265387390000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8B4B6DC00000000000000000 /* Build configuration list for PBXProject "Sagua.App.iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2E7410010000000000000000;
+			productRefGroup = 23C0EA270000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3106AD130000000000000000 /* Sagua.App.iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		256FFEE80000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C17E2760000000000000000 /* Default-568h@2x.png in Resources */,
+				14B4B0E00000000000000000 /* Info.plist in Resources */,
+				2F760BF80000000000000000 /* Entitlements.plist in Resources */,
+				1DA0CCE20000000000000000 /* sssss.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C855F5D0000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110BAF2B0000000000000000 /* AppDelegate.h in Sources */,
+				25A66E6F0000000000000000 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A30E88100000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		3E0191020000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "Sagua.App.iOS";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B4B6DC00000000000000000 /* Build configuration list for PBXProject "Sagua.App.iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A30E88100000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		1367DCB60000000000000000 /* Build configuration list for PBXNativeTarget "Sagua.App.iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E0191020000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 265387390000000000000000 /* Project object */;
+}

@@ -1,0 +1,12 @@
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.BindingQQLibrary.iOS/obj/Debug/MonoTouch,Version=v1.0.AssemblyAttribute.cs
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.BindingQQLibrary.iOS/obj/Debug/BindingQQLibrary.Resources.TencentOpenApi_IOS_Bundle.bundle.Info.plist
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.BindingQQLibrary.iOS/obj/Debug/BindingQQLibrary.Resources.TencentOpenApi_IOS_Bundle.bundle.error.png
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.BindingQQLibrary.iOS/obj/Debug/BindingQQLibrary.Resources.TencentOpenApi_IOS_Bundle.bundle.qqicon.png
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.BindingQQLibrary.iOS/obj/Debug/BindingQQLibrary.Resources.TencentOpenApi_IOS_Bundle.bundle.success.png
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.BindingQQLibrary.iOS/obj/Debug/BindingQQLibrary.Resources.TencentOpenApi_IOS_Bundle.bundle.js.zip
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.BindingQQLibrary.iOS/obj/Debug/BindingQQLibrary.Resources.TencentOpenApi_IOS_Bundle.bundle.local.html
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.BindingQQLibrary.iOS/obj/Debug/BindingQQLibrary.Resources.TencentOpenApi_IOS_Bundle.bundle.public_key.der
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.BindingQQLibrary.iOS/bin/Debug/BindingQQLibrary.dll.mdb
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.BindingQQLibrary.iOS/bin/Debug/BindingQQLibrary.dll
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.BindingQQLibrary.iOS/obj/Debug/BindingQQLibrary.dll
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.BindingQQLibrary.iOS/obj/Debug/BindingQQLibrary.dll.mdb

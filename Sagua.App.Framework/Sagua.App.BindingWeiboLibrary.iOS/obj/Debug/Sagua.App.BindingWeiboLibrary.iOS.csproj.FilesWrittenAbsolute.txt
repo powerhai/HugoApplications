@@ -1,0 +1,7 @@
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.BindingWeiboLibrary.iOS/obj/Debug/MonoTouch,Version=v1.0.AssemblyAttribute.cs
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.BindingWeiboLibrary.iOS/obj/Debug/BindingWeiboLibrary.Resources.WeiboSDK.bundle.images.close.png
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.BindingWeiboLibrary.iOS/obj/Debug/BindingWeiboLibrary.Resources.WeiboSDK.bundle.images.close@2x.png
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.BindingWeiboLibrary.iOS/bin/Debug/BindingWeiboLibrary.dll.mdb
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.BindingWeiboLibrary.iOS/bin/Debug/BindingWeiboLibrary.dll
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.BindingWeiboLibrary.iOS/obj/Debug/BindingWeiboLibrary.dll
+/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.BindingWeiboLibrary.iOS/obj/Debug/BindingWeiboLibrary.dll.mdb

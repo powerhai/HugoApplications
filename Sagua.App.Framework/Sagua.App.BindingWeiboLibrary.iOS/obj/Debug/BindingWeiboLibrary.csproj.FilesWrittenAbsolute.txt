@@ -1,0 +1,7 @@
+/Users/hai/Desktop/Share/MobileAppTemplate/Source/BindingWeiboLibrary/obj/Debug/MonoTouch,Version=v1.0.AssemblyAttribute.cs
+/Users/hai/Desktop/Share/MobileAppTemplate/Source/BindingWeiboLibrary/obj/Debug/BindingWeiboLibrary.Resources.WeiboSDK.bundle.images.close.png
+/Users/hai/Desktop/Share/MobileAppTemplate/Source/BindingWeiboLibrary/obj/Debug/BindingWeiboLibrary.Resources.WeiboSDK.bundle.images.close@2x.png
+/Users/hai/Desktop/Share/MobileAppTemplate/Source/BindingWeiboLibrary/bin/Debug/BindingWeiboLibrary.dll.mdb
+/Users/hai/Desktop/Share/MobileAppTemplate/Source/BindingWeiboLibrary/bin/Debug/BindingWeiboLibrary.dll
+/Users/hai/Desktop/Share/MobileAppTemplate/Source/BindingWeiboLibrary/obj/Debug/BindingWeiboLibrary.dll
+/Users/hai/Desktop/Share/MobileAppTemplate/Source/BindingWeiboLibrary/obj/Debug/BindingWeiboLibrary.dll.mdb
