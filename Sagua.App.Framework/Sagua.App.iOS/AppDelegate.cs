@@ -7,7 +7,8 @@ using MonoTouch.UIKit;
 
 using Xamarin.Forms;
 using BindingQQLibrary;
-using Sagua.App.BindingWeiboLibrary.iOS;
+using Sagua.App.BindingWeiboLibrary.iOS; 
+using Sagua.Global.Common;
 
 namespace Sagua.App.iOS
 {
@@ -27,19 +28,17 @@ namespace Sagua.App.iOS
 			
 			return true;
 		}
-
-		private static readonly string QQAppName = "com.tencent.mqq";
-		private static readonly string WeiboAppName = "com.sina.weibo";
+ 
 		public override bool HandleOpenURL (UIApplication application, NSUrl url)
 		{ 
 			return TencentOAuth.HandleOpenURL(url);
 		}
 		public override bool OpenUrl (UIApplication application, NSUrl url, string sourceApplication, NSObject annotation)
 		{
-			if (sourceApplication.Equals (QQAppName)) {
+			if (sourceApplication.Equals (WebServerConst.QQAppName )) {
 				return TencentOAuth.HandleOpenURL(url);
 			}
-			if(sourceApplication.Equals(WeiboAppName)){
+			if(sourceApplication.Equals(WebServerConst.WeiboAppName )){
 
 				return WeiboSDK.HandleOpenURL(url, new Wei () );
 			} 

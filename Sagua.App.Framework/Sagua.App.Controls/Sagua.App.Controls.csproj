@@ -35,6 +35,8 @@
     <Compile Include="Image\XImagesView.cs" />
     <Compile Include="ListView\XListView.cs" />
     <Compile Include="ListView\PullToRefreshListView.cs" />
+    <Compile Include="TableView\XTableView.cs" />
+    <Compile Include="TableView\XViewCell.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.1.0.6186\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10\Xamarin.Forms.targets" />
@@ -52,5 +54,6 @@
   <ItemGroup>
     <Folder Include="Image\" />
     <Folder Include="ListView\" />
+    <Folder Include="TableView\" />
   </ItemGroup>
 </Project>

@@ -7,11 +7,12 @@ Xamarin.Mobile.dll
 Sagua.App.Components.dll
 System.Runtime.dll
 System.ComponentModel.Composition.dll
-System.ObjectModel.dll
-System.Threading.Tasks.dll
 System.IO.dll
+System.ObjectModel.dll
 System.Collections.dll
 System.Threading.dll
+System.Threading.Tasks.dll
+BindingQQLibrary.dll
 Xamarin.Forms.Core.dll
 System.Runtime.Extensions.dll
 System.Linq.Expressions.dll
@@ -30,6 +31,7 @@ Sagua.Global.Common.dll
 Xamarin.Forms.Xaml.dll
 System.Xml.ReaderWriter.dll
 System.Text.RegularExpressions.dll
+BindingWeiboLibrary.dll
 BTProgressHUD.dll
 ZXing.Net.Mobile.dll
 zxing.monotouch.dll

@@ -1,6 +1,12 @@
 /Users/hai/Desktop/Share/HugoApplications/App.Jingying.Job/Jingying.App.Core/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
 /Users/hai/Desktop/Share/HugoApplications/App.Jingying.Job/Jingying.App.Core/obj/Debug/Jingying.App.Core.Views.MainPage.xaml
+/Users/hai/Desktop/Share/HugoApplications/App.Jingying.Job/Jingying.App.Core/obj/Debug/Jingying.App.Core.Views.PersonHomePage.xaml
+/Users/hai/Desktop/Share/HugoApplications/App.Jingying.Job/Jingying.App.Core/obj/Debug/Jingying.App.Core.Views.ClinicHomePage.xaml
+/Users/hai/Desktop/Share/HugoApplications/App.Jingying.Job/Jingying.App.Core/obj/Debug/Jingying.App.Core.Views.SelectUserTypePage.xaml
 /Users/hai/Desktop/Share/HugoApplications/App.Jingying.Job/Jingying.App.Core/obj/Debug/MainPage.xaml.g.cs
+/Users/hai/Desktop/Share/HugoApplications/App.Jingying.Job/Jingying.App.Core/obj/Debug/PersonHomePage.xaml.g.cs
+/Users/hai/Desktop/Share/HugoApplications/App.Jingying.Job/Jingying.App.Core/obj/Debug/ClinicHomePage.xaml.g.cs
+/Users/hai/Desktop/Share/HugoApplications/App.Jingying.Job/Jingying.App.Core/obj/Debug/SelectUserTypePage.xaml.g.cs
 /Users/hai/Desktop/Share/HugoApplications/App.Jingying.Job/Jingying.App.Core/bin/Debug/Sagua.App.Core.dll.mdb
 /Users/hai/Desktop/Share/HugoApplications/App.Jingying.Job/Jingying.App.Core/bin/Debug/Sagua.App.Core.dll
 /Users/hai/Desktop/Share/HugoApplications/App.Jingying.Job/Jingying.App.Core/obj/Debug/Sagua.App.Core.dll
@@ -15,3 +21,9 @@
 /Users/hai/Desktop/Share/HugoApplications/App.Jingying.Job/Jingying.App.Core/bin/Debug/Sagua.App.Components.dll.mdb
 /Users/hai/Desktop/Share/HugoApplications/App.Jingying.Job/Jingying.App.Core/bin/Debug/Sagua.Global.Common.dll
 /Users/hai/Desktop/Share/HugoApplications/App.Jingying.Job/Jingying.App.Core/bin/Debug/Sagua.Global.Common.dll.mdb
+/Users/hai/Desktop/Share/HugoApplications/App.Jingying.Job/Jingying.App.Core/obj/Debug/Jingying.App.Core.Views.LoginPage.xaml
+/Users/hai/Desktop/Share/HugoApplications/App.Jingying.Job/Jingying.App.Core/obj/Debug/LoginPage.xaml.g.cs
+/Users/hai/Desktop/Share/HugoApplications/App.Jingying.Job/Jingying.App.Core/obj/Debug/Jingying.App.Core.Views.ShowClinicPage.xaml
+/Users/hai/Desktop/Share/HugoApplications/App.Jingying.Job/Jingying.App.Core/obj/Debug/ShowClinicPage.xaml.g.cs
+/Users/hai/Desktop/Share/HugoApplications/App.Jingying.Job/Jingying.App.Core/obj/Debug/Jingying.App.Core.Views.JobsOfClinicPage.xaml
+/Users/hai/Desktop/Share/HugoApplications/App.Jingying.Job/Jingying.App.Core/obj/Debug/JobsOfClinicPage.xaml.g.cs

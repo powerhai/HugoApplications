@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Sagua.App.Core.RefreshListViewPage"
 xmlns:controls="clr-namespace:Sagua.App.Controls;assembly=Sagua.App.Controls"
 	xmlns:converter="clr-namespace:Sagua.App.Common;assembly=Sagua.App.Common"
@@ -23,7 +23,7 @@ xmlns:controls="clr-namespace:Sagua.App.Controls;assembly=Sagua.App.Controls"
                      WidthRequest="40"
                      HeightRequest="40" /> 
                 <Label Text="{Binding  Name}"
-                       HorizontalOptions="FillAndExpand" /> 
+                       HorizontalOptions="FillAndExpand" />
             </StackLayout>
           </ViewCell.View>
         </ViewCell>

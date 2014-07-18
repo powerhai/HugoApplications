@@ -37,6 +37,25 @@
     <Compile Include="Views\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\PersonHomePage.xaml.cs">
+      <DependentUpon>PersonHomePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ClinicHomePage.xaml.cs">
+      <DependentUpon>ClinicHomePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LoginPage.xaml.cs">
+      <DependentUpon>LoginPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\LoginViewModel.cs" />
+    <Compile Include="Views\ShowClinicPage.xaml.cs">
+      <DependentUpon>ShowClinicPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\JobsOfClinicPage.xaml.cs">
+      <DependentUpon>JobsOfClinicPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\JobsOfClinicViewModel.cs" />
+    <Compile Include="Models\UiJob.cs" />
+    <Compile Include="ViewModels\ShowClinicViewModel.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.1.0.6186\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10\Xamarin.Forms.targets" />
@@ -76,6 +95,21 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PersonHomePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ClinicHomePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\LoginPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ShowClinicPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\JobsOfClinicPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>

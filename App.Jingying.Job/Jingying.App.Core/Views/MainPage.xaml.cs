@@ -10,6 +10,15 @@ namespace Jingying.App.Core
 		{
 			InitializeComponent ();
 			this.BindingContext = new MainPageViewModel (this);
+			 
+		}
+ 
+ 
+		protected override void OnAppearing ()
+		{
+			//this.Navigation.PushModalAsync (new LoginPage ());
+			base.OnAppearing ();
+		
 		}
 	}
 }

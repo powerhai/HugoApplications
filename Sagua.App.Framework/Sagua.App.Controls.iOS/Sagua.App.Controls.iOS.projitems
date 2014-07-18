@@ -17,9 +17,11 @@
     <Compile Include="$(MSBuildThisFileDirectory)ListView\XListViewRenderer.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ListView\FormsUIRefreshControl.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ListView\PullToRefreshListViewRenderer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tableview\IOSXTableview.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Image\" />
     <Folder Include="$(MSBuildThisFileDirectory)ListView\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Tableview\" />
   </ItemGroup>
 </Project>

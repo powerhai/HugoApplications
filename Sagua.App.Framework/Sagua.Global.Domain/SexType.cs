@@ -6,5 +6,6 @@ namespace Sagua.Global.Domain
 		Men,
 		Women
 	}
+
 }
 

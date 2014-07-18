@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Jingying.App.Core.ShowClinicPage"
+	 
+>
+	<ConstentPage.Resources>
+		
+	</ConstentPage.Resources>
+	<ContentPage.Content>
+	<ScrollView  >
+
+		<StackLayout Spacing="0"  BackgroundColor="#eeeeee">
+			<StackLayout Padding="5,12,5,12"  BackgroundColor="#eeeeee">
+				<Label Text="杭州博士口腔医院" TextColor="Navy"  ></Label>
+			</StackLayout>
+			<BoxView HeightRequest="1" BackgroundColor="Silver"></BoxView>
+		    <Grid Padding="5,8,5,8"   BackgroundColor="White" >
+		     <Grid.ColumnDefinitions> 
+              <ColumnDefinition Width="auto" /> 
+              <ColumnDefinition Width="*" /> 
+       		 </Grid.ColumnDefinitions>
+					<Label Text="联系人" Grid.Column="0"  TextColor="Gray"  Font="Small"></Label>
+					<Label Text="江别鹤" Grid.Column="1" Font="Small" HorizontalOptions="End"></Label>			 
+		    </Grid>
+			<BoxView HeightRequest="1" BackgroundColor="Silver"></BoxView>
+
+
+			 <Grid Padding="5,8,5,8"  BackgroundColor="White" >
+		     <Grid.ColumnDefinitions> 
+              <ColumnDefinition Width="auto" /> 
+              <ColumnDefinition Width="*" /> 
+       		 </Grid.ColumnDefinitions>
+					<Label Text="电话" Grid.Column="0"  TextColor="Gray"  Font="Small"></Label>
+					<Label Text="15821522733" Grid.Column="1" TextColor="Blue" HorizontalOptions="End"  Font="Small" />			 
+		    </Grid>
+			<BoxView HeightRequest="1" BackgroundColor="Silver"></BoxView>
+			<BoxView HeightRequest="8" BackgroundColor="#eeeeee"></BoxView>
+			<BoxView HeightRequest="1" BackgroundColor="Silver"></BoxView>
+				<Grid Padding="5,8,5,8"  BackgroundColor="White" >
+		     <Grid.ColumnDefinitions > 
+              <ColumnDefinition Width="*" /> 
+              <ColumnDefinition Width="30" /> 
+       		 </Grid.ColumnDefinitions >
+					<Button Text="该诊所的全部职位" Grid.Column="0" HeightRequest="20" Grid.ColumnSpan="2" TextColor="Blue"  Font="Small"  Command="{Binding ShowJobsOfClinicCommand}"  />
+					<Image HeightRequest="5" WidthRequest="5" Source="png_arrow.png" Grid.Column="1"></Image>
+			 </Grid>
+			<BoxView HeightRequest="1" BackgroundColor="Silver"></BoxView>
+			<BoxView HeightRequest="8" BackgroundColor="#eeeeee"></BoxView>
+
+			<BoxView HeightRequest="1" BackgroundColor="Silver"></BoxView>
+			<Grid Padding="5,8,5,8"  BackgroundColor="White"  >
+		     <Grid.ColumnDefinitions> 
+              <ColumnDefinition Width="auto" /> 
+              <ColumnDefinition Width="*" /> 
+       		 </Grid.ColumnDefinitions>
+					<Label Text="地址" Grid.Column="0"   TextColor="Gray"  Font="Small"></Label>
+					<Label Text="庆春路2313号" Grid.Column="1"  HorizontalOptions="End"  Font="Small"></Label>			 
+		    </Grid>
+			<BoxView HeightRequest="1" BackgroundColor="Silver"></BoxView>
+
+
+			<Grid Padding="5,8,5,8"  BackgroundColor="White"  >
+		     <Grid.ColumnDefinitions> 
+              <ColumnDefinition Width="auto" /> 
+              <ColumnDefinition Width="*" /> 
+       		 </Grid.ColumnDefinitions>
+					<Label Text="省市" Grid.Column="0"  TextColor="Gray"  Font="Small"></Label>
+					<Label Text="浙江 - 永康" Grid.Column="1"  HorizontalOptions="End"  Font="Small"></Label>			 
+		    </Grid>
+			<BoxView HeightRequest="1" BackgroundColor="Silver"></BoxView>
+
+ 			<StackLayout Padding="5,8,5,8"  BackgroundColor="#eeeeee">
+				<Label    Font="Small" Text="这是一家非常专业的口腔医院，现有员工2000余名，博士32名，研究生322名，是浙江省乃至全国都少有的特大型专业口腔医院。"></Label>
+
+ 			</StackLayout>
+	 
+					</StackLayout>
+
+					</ScrollView>
+	</ContentPage.Content>
+</ContentPage>

@@ -23,6 +23,21 @@ namespace Sagua.App.Controls
 			get { return (Command)GetValue (LoadmoreCommandProperty); }
 			set { SetValue (LoadmoreCommandProperty, value); }
 		}
+		EventHandler<ItemTappedEventArgs> mTapped;
+		public XListView ()
+		{
+			mTapped = (sender, e) => { if(Command != null) Command.Execute(e.Item); };
+			this.ItemTapped += mTapped;
+		}
+
+		public static readonly BindableProperty CommandProperty = 
+			BindableProperty.Create<XViewCell,Command> (
+				p => p.Command, null);
+
+		public Command Command {
+			get { return (Command)GetValue (CommandProperty); }
+			set { SetValue (CommandProperty, value); }
+		}
 
 	}
 }

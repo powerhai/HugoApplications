@@ -34,6 +34,7 @@
     <Compile Include="EnumExtension.cs" />
     <Compile Include="BaseRestResult.cs" />
     <Compile Include="BaseRestPostModel.cs" />
+    <Compile Include="WebServerConst.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>

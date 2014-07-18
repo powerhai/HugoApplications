@@ -7,6 +7,7 @@ using System.Collections.ObjectModel;
 namespace Jingying.App.Core
 {
 
+
 	public class DoctorGroup : ObservableCollection<Doctor>
 	{
 		string groupTitle;

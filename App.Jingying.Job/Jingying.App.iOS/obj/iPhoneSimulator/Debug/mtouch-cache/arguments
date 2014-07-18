@@ -18,6 +18,12 @@
 	-r \
 	/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.Common/bin/Debug/Sagua.App.Common.dll \
 	-r \
+	/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.Global.Common/bin/Debug/Sagua.Global.Common.dll \
+	-r \
+	/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.BindingQQLibrary.iOS/bin/Debug/BindingQQLibrary.dll \
+	-r \
+	/Users/hai/Desktop/Share/HugoApplications/Sagua.App.Framework/Sagua.App.BindingWeiboLibrary.iOS/bin/Debug/BindingWeiboLibrary.dll \
+	-r \
 	/Developer/MonoTouch/usr/lib/mono/2.1/System.dll \
 	-r \
 	/Developer/MonoTouch/usr/lib/mono/2.1/System.Xml.dll \
@@ -46,4 +52,5 @@
 	-targetver \
 	7.0 \
 	--abi=i386 \
+	--registrar:legacy \
 	/Users/hai/Desktop/Share/HugoApplications/App.Jingying.Job/Jingying.App.iOS/bin/iPhoneSimulator/Debug/SaguaIOS.exe \
