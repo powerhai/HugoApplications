@@ -1,11 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhoneRetina.7.1" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Jingying.App.Core/ViewModels/LoginViewModel.cs">
-    <Files>
-      <File FileName="../Sagua.App.Framework/Sagua.App.Core/ViewModels/TestLibViewModel.cs" Line="88" Column="38" />
-      <File FileName="Jingying.App.Core/ViewModels/LoginViewModel.cs" Line="30" Column="31" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
