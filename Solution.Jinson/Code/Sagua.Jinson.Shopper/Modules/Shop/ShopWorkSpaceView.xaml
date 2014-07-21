@@ -1,0 +1,87 @@
+﻿<UserControl x:Class="Sagua.Jinson.Shopper.Modules.Shop.ShopWorkSpaceView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:common="clr-namespace:Sagua.Jinson.Shopper.Common"
+             xmlns:domain="clr-namespace:Sagua.Jinson.Shopper.Domain"
+             mc:Ignorable="d"  Background="Transparent"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.Resources> 
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="5"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="5"/>
+            <RowDefinition Height="233*"/>
+        </Grid.RowDefinitions>
+        <Label Style="{StaticResource LabelHeaderStyle}">店铺</Label>
+         <Border Background="WhiteSmoke" Grid.Row="2" CornerRadius="5" Padding="10"
+             >
+            <Grid VerticalAlignment="Center " DataContext="{Binding AddDataBlocak}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto "/>
+                    <ColumnDefinition Width="5"/>
+                    
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="5"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="5"/>
+                    
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="5"/>
+                    
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="5"/>
+                    
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="5"/>
+                    
+                    <ColumnDefinition Width="70"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0">店铺类型</TextBlock>
+                <ComboBox Grid.Column="2" SelectedValue="{Binding ShopType}"  ItemsSource="{common:EnumValues  EnumType=domain:ShopType}" SelectedValuePath="Value" DisplayMemberPath="Description"></ComboBox>
+                <TextBlock Grid.Column="4">店名</TextBlock>
+                <TextBox Grid.Column="6" Text="{Binding Title}"></TextBox>
+                <TextBlock Grid.Column="8">店址</TextBlock>
+                <TextBox Grid.Column="10"  Text="{Binding Url}"></TextBox>
+                <Button Grid.Column="12" Command="{Binding RelativeSource={RelativeSource FindAncestor , AncestorType=UserControl},Path=DataContext.AddShopCommand}">添加</Button>
+                
+            </Grid>
+        
+         </Border>
+         
+        <ListView Grid.Row="4" ItemsSource="{Binding Shops}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="类型" Width="70" DisplayMemberBinding="{Binding ShopType,Converter={StaticResource Enum2StringConverter}}"></GridViewColumn>
+                    <GridViewColumn Header="店名" Width="100" DisplayMemberBinding="{Binding Title}"></GridViewColumn>
+                    <GridViewColumn Header="店址" Width="400"  >
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                              <TextBlock><Hyperlink Command="{Binding RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=UserControl}, Path=DataContext.GoToUrlCommand}" CommandParameter="{Binding Url}"><Run Text="{Binding Url}"></Run></Hyperlink></TextBlock>  
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Width="auto">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="30"></ColumnDefinition>
+                                        <ColumnDefinition Width="5"></ColumnDefinition>
+                                        <ColumnDefinition Width="30"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Grid.Column="0"><Hyperlink Command="{Binding RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=UserControl},Path=DataContext.EditShopCommand}" CommandParameter="{Binding .}"><Run Text="编辑"></Run></Hyperlink></TextBlock>
+                                    <TextBlock Grid.Column="2"><Hyperlink Command="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=UserControl},Path=DataContext.DelShopCommand}" CommandParameter="{Binding .}"><Run Text="删除"></Run></Hyperlink></TextBlock>
+                                </Grid>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</UserControl>

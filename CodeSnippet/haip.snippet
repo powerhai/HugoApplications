@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<CodeSnippet Format="1.0.0" 
+             xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet"> 
+ <Header> 
+    <Title>haip</Title> 
+    <Author>umair</Author> 
+    <Shortcut>haip</Shortcut> 
+    <Description>Adds a try-catch-finally block</Description> 
+    <SnippetTypes> 
+      <SnippetType>Expansion</SnippetType> 
+    </SnippetTypes> 
+ </Header> 
+ <Snippet> 
+    <Declarations> 
+      <Literal> 
+        <ID>TypeName</ID> 
+        <Default>String</Default> 
+      </Literal> 
+
+ <Literal> 
+        <ID>VarName</ID> 
+        <Default>MyName</Default> 
+      </Literal> 
+
+    </Declarations> 
+    <Code Language="CSharp"> 
+      <![CDATA[  
+        private $TypeName$ m$VarName$;
+        public $TypeName$ $VarName$
+        {
+            get
+            {
+                return m$VarName$;
+            }
+            set
+            {
+                m$VarName$ = value;
+                OnPropertyChanged();
+            }
+        }
+      ]]> 
+    </Code> 
+ </Snippet> 
+</CodeSnippet> 
