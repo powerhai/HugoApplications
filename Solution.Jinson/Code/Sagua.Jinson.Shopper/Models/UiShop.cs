@@ -1,7 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Sagua.Global.Common;
+using Sagua.Jinson.Global.Domain;
 using Sagua.Jinson.Shopper.Common;
 using Sagua.Jinson.Shopper.Domain;
 
@@ -25,6 +26,20 @@ namespace Sagua.Jinson.Shopper.Models
             }
         }
 
+        private long mID;
+        public long ID
+        {
+            get
+            {
+                return mID;
+            }
+            set
+            {
+                mID = value;
+                OnPropertyChanged();
+            }
+        }
+      
         public string Url
         {
             get

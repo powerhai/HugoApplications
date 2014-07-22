@@ -5,13 +5,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Data;
 using System.Windows.Input;
 using Microsoft.Practices.Prism;
 using Microsoft.Practices.Prism.Commands;
 using Microsoft.Practices.Unity;
+using Sagua.Global.Common;
 using Sagua.Jingson.Shopper;
+using Sagua.Jinson.Global.Domain;
 using Sagua.Jinson.Shopper.Common;
-using Sagua.Jinson.Shopper.Domain;
+using Sagua.Jinson.Shopper.Controllers;
 using Sagua.Jinson.Shopper.Models;
 
 namespace Sagua.Jinson.Shopper.Modules.Shop
@@ -20,7 +23,7 @@ namespace Sagua.Jinson.Shopper.Modules.Shop
 
     public class ShopWorkSpaceViewModel : BaseViewModel
     {
-        private readonly IUnityContainer mContainer;
+        private readonly ShopController mShopController;
 
         public class InputDataBlocak : ObservableObject
         {
@@ -66,6 +69,7 @@ namespace Sagua.Jinson.Shopper.Modules.Shop
                 }
             }
         }
+        private static object Lock = new object();
 
         public InputDataBlocak AddDataBlocak
         {
@@ -75,14 +79,10 @@ namespace Sagua.Jinson.Shopper.Modules.Shop
             } 
         }
 
-        public ShopWorkSpaceViewModel (IUnityContainer container)
+        public ShopWorkSpaceViewModel (IUnityContainer container, ShopController shopController) : base(container)
         {
-            mContainer = container;
-            Shops.Add(new UiShop(){ ShopType = ShopType.Taobao, Title = "河边小店", Url = "http://www.taobao.com/shop/123"});
-               Shops.Add(new UiShop() { ShopType = ShopType.Taobao, Title = "九匹狼专卖店", Url = "http://www.taobao.com/shop/123" });
-               Shops.Add(new UiShop() { ShopType = ShopType.Taobao, Title = "匹力旗巾店", Url = "http://www.taobao.com/shop/123" });
-               Shops.Add(new UiShop() { ShopType = ShopType.Taobao, Title = "河边小店", Url = "http://www.taobao.com/shop/123" });
-
+            mShopController = shopController;
+            BindingOperations.EnableCollectionSynchronization(Shops , Lock);
         }
 
         private ObservableCollection<UiShop> mShops;
@@ -97,10 +97,24 @@ namespace Sagua.Jinson.Shopper.Modules.Shop
 
         public ICommand AddShopCommand
         {
-            get { return new DelegateCommand(() =>
+            get { return new DelegateCommand(async () =>
             {
-                Shops.Add(new UiShop() { ShopType = AddDataBlocak.ShopType  , Title = AddDataBlocak.Title , Url =  AddDataBlocak.Url });
-                
+                ShowBusyBox();
+                var result = await mShopController.AddShop( AddDataBlocak.Title, AddDataBlocak.Url, AddDataBlocak.ShopType);
+                if(result.IsOk)
+                {
+                    Shops.Add(new UiShop()
+                    {
+                        ShopType = AddDataBlocak.ShopType,
+                        Title = AddDataBlocak.Title,
+                        Url = AddDataBlocak.Url,
+                        ID = result.ShopId
+                    });
+                } else
+                {
+                    MessageBox.Show(result.ErrorMessage, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+                CloseBusyBox();
             });}
         }
 
@@ -108,26 +122,46 @@ namespace Sagua.Jinson.Shopper.Modules.Shop
         {
             get
             {
-                return new DelegateCommand<UiShop>((shop) =>
+                return new DelegateCommand<UiShop>(async (shop) =>
                 {
                     var dialog = mContainer.Resolve<WindowModifyShop>();
                     dialog.Owner = App.Current.MainWindow;
-                    dialog.ViewModel.Shop = new UiShop(){ ShopType = shop.ShopType, Title = shop.Title,Url = shop.Url };
+                    dialog.ViewModel.Shop = new UiShop(){ ID = shop.ID, ShopType = shop.ShopType, Title = shop.Title,Url = shop.Url };
                     var result =  dialog.ShowDialog();
+                   
                     if(result.HasValue && result.Value == true)
-                    {
-                        shop.Url = dialog.ViewModel.Shop.Url;
-                        shop.Title = dialog.ViewModel.Shop.Title;
-                        shop.ShopType = dialog.ViewModel.Shop.ShopType;
+                    { 
+                        var resultShop = dialog.ViewModel.Shop;
+                        ShowBusyBox();
+                        var serResult = await mShopController.UpdateShop(resultShop.ID , resultShop.Title, resultShop.Url, resultShop.ShopType);
+                        if(serResult.IsOk)
+                        {
+                            shop.Url = dialog.ViewModel.Shop.Url;
+                            shop.Title = dialog.ViewModel.Shop.Title;
+                            shop.ShopType = dialog.ViewModel.Shop.ShopType; 
+                        } else
+                        {
+                            MessageBox.Show(serResult.ErrorMessage, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                        }
+                        CloseBusyBox();
                     }
                 });
             }
         }
         public ICommand DelShopCommand
         {
-            get {return new DelegateCommand<UiShop>((shop) =>
+            get {return new DelegateCommand<UiShop>(async (shop) =>
             {
-                Shops.Remove(shop);
+                ShowBusyBox();
+                var result = await  mShopController.DeleteShop(shop.ID);
+                if(result.IsOk)
+                {
+                    Shops.Remove(shop);
+                } else
+                {
+                    MessageBox.Show(result.ErrorMessage, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+                CloseBusyBox();
             });}
         }
         public ICommand GoToUrlCommand
@@ -136,9 +170,26 @@ namespace Sagua.Jinson.Shopper.Modules.Shop
             {
                 return new DelegateCommand<string>((url) =>
                 {
-                    System.Diagnostics.Process.Start(url); 
+                    try
+                    {
+                        System.Diagnostics.Process.Start(url);
+                    } catch(Exception e) {}
                 });
             }
+        }
+        public override async void LoadViewData ()
+        {
+            ShowBusyBox();
+            var result = await  mShopController.GetShopsOfBusinessUser();
+            if(result.IsOk)
+            {
+                foreach(var item in result.Shops)
+                {
+                    Shops.Add(new UiShop(){ID = item.Id,  ShopType = item.ShopType,Title = item.Title , Url = item.Url });
+                }
+            }
+            CloseBusyBox();
+ 
         }
     }
 }

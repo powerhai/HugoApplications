@@ -15,7 +15,7 @@
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
         <Label Style="{StaticResource LabelHeaderStyle}">设置</Label>
-         <ScrollViewer Grid.Row="2"  Padding="0,0,10,0" >
+         <ScrollViewer Grid.Row="2"  Padding="0,0,10,0" VerticalScrollBarVisibility="Auto"   >
         <ItemsControl regions:RegionManager.RegionName="{x:Static domain:RegionNames.SETUP_REGION}">
            
         </ItemsControl>  </ScrollViewer>

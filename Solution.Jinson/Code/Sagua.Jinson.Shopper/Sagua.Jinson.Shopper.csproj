@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Sagua.Jinson.Shopper</RootNamespace>
-    <AssemblyName>Sagua.Jinson.Shopper</AssemblyName>
+    <AssemblyName>JinsonShopper</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -51,6 +51,9 @@
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\jin.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Practices.Prism">
       <HintPath>..\..\..\lib\Prism\Microsoft.Practices.Prism.dll</HintPath>
@@ -66,6 +69,9 @@
     </Reference>
     <Reference Include="Microsoft.Practices.Unity">
       <HintPath>..\..\..\lib\Prism\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp">
+      <HintPath>..\packages\RestSharp.104.4.0\lib\net4\RestSharp.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -92,23 +98,45 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Common\BaseView.cs" />
     <Compile Include="Common\BaseViewModel.cs" />
     <Compile Include="Common\EnumExtension.cs" />
     <Compile Include="Common\EnumValuesExtension.cs" />
-    <Compile Include="Common\ObservableObject.cs" />
-    <Compile Include="Domain\ShopType.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\MissionController.cs" />
+    <Compile Include="Controllers\RegisterController.cs" />
+    <Compile Include="Controllers\ShopController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Controls\BoundPasswordBox.cs" />
+    <Compile Include="Controls\RegionBusyBox.xaml.cs">
+      <DependentUpon>RegionBusyBox.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Domain\RegionNames.cs" />
-    <Compile Include="Domain\TaskStatus.cs" />
     <Compile Include="Models\UiShop.cs" />
-    <Compile Include="Models\UiTask.cs" />
+    <Compile Include="Models\UiMission.cs" />
     <Compile Include="Modules\Login\LoginView.xaml.cs">
       <DependentUpon>LoginView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Modules\Login\LoginViewModel.cs" />
+    <Compile Include="Modules\Mission\ModifyMissionViewModel.cs" />
+    <Compile Include="Modules\Order\MainOrderButton.xaml.cs">
+      <DependentUpon>MainOrderButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Order\OrderWorkSpaceView.xaml.cs">
+      <DependentUpon>OrderWorkSpaceView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Register\RegisterView.xaml.cs">
+      <DependentUpon>RegisterView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Register\RegisterViewModel.cs" />
     <Compile Include="Modules\Setup\ChangePassword\ChangePasswordView.xaml.cs">
       <DependentUpon>ChangePasswordView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Modules\Setup\ChangePassword\ChangePasswordViewModel.cs" />
+    <Compile Include="Modules\Setup\ChangeUserInfomation\ChangeUserInformationViewModel.cs" />
+    <Compile Include="Modules\Setup\ChangeUserInfomation\ChangeUserInformationView.xaml.cs">
+      <DependentUpon>ChangeUserInformationView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Modules\Setup\MainSetupButton.xaml.cs">
       <DependentUpon>MainSetupButton.xaml</DependentUpon>
     </Compile>
@@ -126,14 +154,18 @@
     <Compile Include="Modules\Shop\WindowModifyShop.xaml.cs">
       <DependentUpon>WindowModifyShop.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Modules\Task\TaskWorkSpaceViewModel.cs" />
-    <Compile Include="Modules\Task\MainTaskButton.xaml.cs">
-      <DependentUpon>MainTaskButton.xaml</DependentUpon>
+    <Compile Include="Modules\Mission\MissionWorkSpaceViewModel.cs" />
+    <Compile Include="Modules\Mission\MainMissionButton.xaml.cs">
+      <DependentUpon>MainMissionButton.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Modules\Task\TaskWorkSpaceView.xaml.cs">
-      <DependentUpon>TaskWorkSpaceView.xaml</DependentUpon>
+    <Compile Include="Modules\Mission\MissionWorkSpaceView.xaml.cs">
+      <DependentUpon>MissionWorkSpaceView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Properties\Annotations.cs" />
+    <Compile Include="Modules\Mission\WindowModifyMission.xaml.cs">
+      <DependentUpon>WindowModifyMission.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Services\BusinessServerProvider.cs" />
+    <Compile Include="Services\AuthorizationService.cs" />
     <Compile Include="ShopperModule.cs" />
     <Compile Include="Shell.xaml.cs">
       <DependentUpon>Shell.xaml</DependentUpon>
@@ -144,11 +176,31 @@
     </Compile>
     <Compile Include="Bootstrapper.cs" />
     <Compile Include="ValueConverts\Enum2StringConverter.cs" />
+    <Page Include="Controls\RegionBusyBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Modules\Login\LoginView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Modules\Order\MainOrderButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Order\OrderWorkSpaceView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Register\RegisterView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Modules\Setup\ChangePassword\ChangePasswordView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Setup\ChangeUserInfomation\ChangeUserInformationView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -172,11 +224,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Modules\Task\MainTaskButton.xaml">
+    <Page Include="Modules\Mission\MainMissionButton.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Modules\Task\TaskWorkSpaceView.xaml">
+    <Page Include="Modules\Mission\MissionWorkSpaceView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Mission\WindowModifyMission.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -207,6 +263,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -217,7 +274,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Modules\Order\" />
     <Folder Include="Modules\Service\" />
   </ItemGroup>
   <ItemGroup>
@@ -242,6 +298,13 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\jin.ico" />
+  </ItemGroup>
+  <Import Project="..\Sagua.Jinson.Global.Domain\Sagua.Jinson.Global.Domain.projitems" Label="Shared" Condition="Exists('..\Sagua.Jinson.Global.Domain\Sagua.Jinson.Global.Domain.projitems')" />
+  <Import Project="..\Sagua.Jinson.Global.Common\Sagua.Jinson.Global.Common.projitems" Label="Shared" Condition="Exists('..\Sagua.Jinson.Global.Common\Sagua.Jinson.Global.Common.projitems')" />
+  <Import Project="..\Sagua.Jinson.Global.Models\Sagua.Jinson.Global.Models.projitems" Label="Shared" Condition="Exists('..\Sagua.Jinson.Global.Models\Sagua.Jinson.Global.Models.projitems')" />
+  <Import Project="..\Sagua.Jinson.Global.Models\Sagua.Jinson.Global.Models.projitems" Label="Shared" Condition="Exists('..\Sagua.Jinson.Global.Models\Sagua.Jinson.Global.Models.projitems')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

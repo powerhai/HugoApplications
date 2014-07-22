@@ -51,7 +51,7 @@ namespace Sagua.Jinson.Shopper.Modules.Task {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Sagua.Jinson.Shopper;component/modules/task/maintaskbutton.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/JinsonShopper;component/modules/task/maintaskbutton.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Modules\Task\MainTaskButton.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

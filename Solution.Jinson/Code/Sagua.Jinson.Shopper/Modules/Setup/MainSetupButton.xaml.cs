@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Microsoft.Practices.Prism.Regions;
 using Sagua.Jinson.Shopper.Domain;
+using Sagua.Jinson.Shopper.Services;
 
 namespace Sagua.Jinson.Shopper.Modules.Setup
 {
@@ -23,15 +24,18 @@ namespace Sagua.Jinson.Shopper.Modules.Setup
     public partial class MainSetupButton : Button
     {
         private readonly IRegionManager mRegionManager;
-        public MainSetupButton(IRegionManager regionManager)
+        private readonly AuthorizationService mAuthorizationService;
+        public MainSetupButton(IRegionManager regionManager, AuthorizationService authorizationService)
         {
             mRegionManager = regionManager;
+            mAuthorizationService = authorizationService;
             InitializeComponent();
         }
         protected override void OnClick ()
         {
             base.OnClick();
-            mRegionManager.Regions[RegionNames.WORK_SPACE_REGION].RequestNavigate(typeof(SetupWorkSpaceView).FullName);
+            if(mAuthorizationService.IsLogined)
+                mRegionManager.Regions[RegionNames.WORK_SPACE_REGION].RequestNavigate(typeof(SetupWorkSpaceView).FullName);
         }
     }
 }

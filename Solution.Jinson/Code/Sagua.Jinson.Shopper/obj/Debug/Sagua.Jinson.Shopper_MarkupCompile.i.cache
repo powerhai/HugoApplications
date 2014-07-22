@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 \\vmware-host\Shared Folders\HugoApplications\Solution.Jinson\Code\Sagua.Jinson.Shopper\App.xaml
-11684225620
+12-951092402
 
-361350582986
+37167928530
 21-556475004
-Modules\Login\LoginView.xaml;Modules\Setup\ChangePassword\ChangePasswordView.xaml;Modules\Setup\MainSetupButton.xaml;Modules\Setup\SetupWorkSpaceView.xaml;Modules\Shop\MainShopButton.xaml;Modules\Shop\ShopWorkSpaceView.xaml;Modules\Shop\WindowModifyShop.xaml;Modules\Task\MainTaskButton.xaml;Modules\Task\TaskWorkSpaceView.xaml;Resources\DictionaryHeaderLabel.xaml;Shell.xaml;
+Modules\Login\LoginView.xaml;Modules\Setup\ChangePassword\ChangePasswordView.xaml;Modules\Setup\MainSetupButton.xaml;Modules\Setup\SetupWorkSpaceView.xaml;Modules\Shop\MainShopButton.xaml;Modules\Shop\ShopWorkSpaceView.xaml;Modules\Shop\WindowModifyShop.xaml;Modules\Task\MainTaskButton.xaml;Modules\Task\TaskWorkSpaceView.xaml;Modules\Task\WindowModifyTask.xaml;Resources\DictionaryHeaderLabel.xaml;Shell.xaml;
 
 False
 

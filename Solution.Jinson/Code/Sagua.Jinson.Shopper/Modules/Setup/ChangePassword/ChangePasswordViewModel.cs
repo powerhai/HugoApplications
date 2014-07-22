@@ -3,16 +3,27 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using System.Windows.Input;
 using Microsoft.Practices.Prism.Commands;
+using Microsoft.Practices.Unity;
 using Sagua.Jinson.Shopper.Common;
+using Sagua.Jinson.Shopper.Controllers;
+using Sagua.Jinson.Shopper.Services;
 
 namespace Sagua.Jinson.Shopper.Modules.Setup.ChangePassword
 {
     public class ChangePasswordViewModel : BaseViewModel
     {
+        private readonly UserController mUserController;
+        private readonly AuthorizationService mAuthorizationService;
 
         private String mOldPassword;
+        public ChangePasswordViewModel (IUnityContainer container,UserController userController, AuthorizationService authorizationService ) : base(container)
+        {
+            mUserController = userController;
+            mAuthorizationService = authorizationService;
+        }
         public String OldPassword
         {
             get
@@ -62,14 +73,27 @@ namespace Sagua.Jinson.Shopper.Modules.Setup.ChangePassword
         {
             get
             {
-                return new DelegateCommand(() =>
+                return new DelegateCommand(async () =>
                 {
-
+                    var result = await mUserController.UpdatePassword(mAuthorizationService.UserName, OldPassword, NewPassword);
+                    if(result.IsOk)
+                    {
+                        MessageBox.Show("密码修改成功", "成功", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                    } else
+                    {
+                        MessageBox.Show(result.ErrorMessage, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    NewPassword = "";
+                    OldPassword = "";
+                    NewPasswordAgain = "";
                 });
             }
 
         }
-      
-      
+
+        public override void LoadViewData ()
+        {
+             
+        }
     }
 }

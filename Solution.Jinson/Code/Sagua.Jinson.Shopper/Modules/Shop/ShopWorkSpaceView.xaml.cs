@@ -35,6 +35,15 @@ namespace Sagua.Jinson.Shopper.Modules.Shop
         public ShopWorkSpaceView()
         {
             InitializeComponent();
+            this.IsVisibleChanged += MissionWorkSpaceView_IsVisibleChanged;
+        }
+
+        void MissionWorkSpaceView_IsVisibleChanged(object sender, System.Windows.DependencyPropertyChangedEventArgs e)
+        {
+            if (e.NewValue != null && ((bool)e.NewValue) == true)
+            {
+                ViewModel.Init();
+            }
         }
     }
 }

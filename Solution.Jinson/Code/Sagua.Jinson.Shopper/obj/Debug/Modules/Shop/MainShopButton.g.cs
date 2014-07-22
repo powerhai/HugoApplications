@@ -51,7 +51,7 @@ namespace Sagua.Jinson.Shopper.Modules.Shop {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Sagua.Jinson.Shopper;component/modules/shop/mainshopbutton.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/JinsonShopper;component/modules/shop/mainshopbutton.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Modules\Shop\MainShopButton.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

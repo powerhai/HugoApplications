@@ -1,0 +1,9 @@
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.WebControllers\bin\Debug\Sagua.Server.WebControllers.dll
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.WebControllers\bin\Debug\Sagua.Server.WebControllers.pdb
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.WebControllers\bin\Debug\Sagua.Server.DB.Context.dll
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.WebControllers\bin\Debug\Sagua.Server.DB.Models.dll
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.WebControllers\bin\Debug\Sagua.Server.DB.Context.pdb
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.WebControllers\bin\Debug\Sagua.Server.DB.Models.pdb
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.WebControllers\obj\Debug\Jingying.Server.WebControllers.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.WebControllers\obj\Debug\Sagua.Server.WebControllers.dll
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.WebControllers\obj\Debug\Sagua.Server.WebControllers.pdb

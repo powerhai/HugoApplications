@@ -1,0 +1,20 @@
+﻿JinsonShopper
+
+
+winexe
+C#
+.cs
+\\vmware-host\Shared Folders\HugoApplications\Solution.Jinson\Code\Sagua.Jinson.Shopper\obj\Debug\
+Sagua.Jinson.Shopper
+none
+false
+DEBUG;TRACE
+\\vmware-host\Shared Folders\HugoApplications\Solution.Jinson\Code\Sagua.Jinson.Shopper\App.xaml
+171440308103
+
+771754076644
+22-943642185
+Controls\RegionBusyBox.xaml;Modules\Login\LoginView.xaml;Modules\Order\MainOrderButton.xaml;Modules\Order\OrderWorkSpaceView.xaml;Modules\Register\RegisterView.xaml;Modules\Setup\ChangePassword\ChangePasswordView.xaml;Modules\Setup\ChangeUserInfomation\ChangeUserInformationView.xaml;Modules\Setup\MainSetupButton.xaml;Modules\Setup\SetupWorkSpaceView.xaml;Modules\Shop\MainShopButton.xaml;Modules\Shop\ShopWorkSpaceView.xaml;Modules\Shop\WindowModifyShop.xaml;Modules\Mission\MainMissionButton.xaml;Modules\Mission\MissionWorkSpaceView.xaml;Modules\Mission\WindowModifyMission.xaml;Resources\DictionaryHeaderLabel.xaml;Shell.xaml;
+
+True
+

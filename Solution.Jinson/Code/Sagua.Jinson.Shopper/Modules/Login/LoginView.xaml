@@ -17,23 +17,23 @@
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="70"/>
                     <ColumnDefinition Width="20"/>
-                    <ColumnDefinition Width="1*"/>
-                    <ColumnDefinition Width="20"/>
-                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/> 
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="1*"/>
                     <RowDefinition Height="10"/>
                     <RowDefinition Height="1*"/>
-                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="1*"/>
                     <RowDefinition Height="1*"/>
                 </Grid.RowDefinitions>
                 <TextBlock Grid.Row="0" Text="帐号"></TextBlock>
-                <TextBox Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="3"></TextBox>
+                <TextBox Grid.Row="0" Text="{Binding UserName}" Grid.Column="2" ></TextBox>
                 <TextBlock Grid.Row="2" Text="密码"></TextBlock>
-                <TextBox Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="3"></TextBox>
-                
-                <Button Grid.Row="4" Grid.ColumnSpan="5" HorizontalAlignment="Center" Width="70"  Content="登录"></Button>
+                <TextBox Grid.Row="2" Text="{Binding Password}" Grid.Column="2"  ></TextBox>
+                <Button Grid.Row="4" Grid.Column="2" HorizontalAlignment="Left" Command="{Binding LoginCommand}" Width="70"  Content="登录"></Button>
+                <TextBlock Grid.Row="4" Grid.Column="2"  HorizontalAlignment="Right" Width="70"  >
+                    <Hyperlink  Command="{Binding RegisterCommand}">注册会员</Hyperlink>
+                </TextBlock>
             </Grid>
         </Border>
     </Grid>

@@ -1,0 +1,5 @@
+\\vmware-host\Shared Folders\HugoApplications\Solution.Jinson\Code\Sagua.Jinson.Server.DB.Models\bin\Debug\Sagua.Jinson.Server.DB.Models.dll
+\\vmware-host\Shared Folders\HugoApplications\Solution.Jinson\Code\Sagua.Jinson.Server.DB.Models\bin\Debug\Sagua.Jinson.Server.DB.Models.pdb
+\\vmware-host\Shared Folders\HugoApplications\Solution.Jinson\Code\Sagua.Jinson.Server.DB.Models\obj\Debug\Sagua.Jinson.Server.DB.Models.dll
+\\vmware-host\Shared Folders\HugoApplications\Solution.Jinson\Code\Sagua.Jinson.Server.DB.Models\obj\Debug\Sagua.Jinson.Server.DB.Models.pdb
+\\vmware-host\Shared Folders\HugoApplications\Solution.Jinson\Code\Sagua.Jinson.Server.DB.Models\obj\Debug\Sagua.Jinson.Server.DB.Models.csprojResolveAssemblyReference.cache

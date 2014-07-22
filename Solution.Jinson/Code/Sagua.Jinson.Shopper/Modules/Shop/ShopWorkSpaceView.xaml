@@ -4,7 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:common="clr-namespace:Sagua.Jinson.Shopper.Common"
-             xmlns:domain="clr-namespace:Sagua.Jinson.Shopper.Domain"
+             xmlns:domain="clr-namespace:Sagua.Jinson.Global.Domain"
              mc:Ignorable="d"  Background="Transparent"
              d:DesignHeight="300" d:DesignWidth="300">
     <UserControl.Resources> 

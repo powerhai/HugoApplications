@@ -52,7 +52,7 @@ namespace Sagua.Jingson.Shopper {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Sagua.Jinson.Shopper;component/app.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/JinsonShopper;component/app.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\App.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

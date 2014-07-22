@@ -1,0 +1,5 @@
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.DB.Models\bin\Debug\Sagua.Server.DB.Models.dll
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.DB.Models\bin\Debug\Sagua.Server.DB.Models.pdb
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.DB.Models\obj\Debug\Jingying.Server.DB.Models.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.DB.Models\obj\Debug\Sagua.Server.DB.Models.dll
+\\vmware-host\Shared Folders\HugoApplications\App.Jingying.Job\Jingying.Server.DB.Models\obj\Debug\Sagua.Server.DB.Models.pdb

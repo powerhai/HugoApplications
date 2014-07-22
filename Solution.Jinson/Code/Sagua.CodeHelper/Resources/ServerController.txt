@@ -1,0 +1,10 @@
+        public JsonResult [Name] ([Name]PostModel model)
+        {
+            var result = new [Name]PostResult();
+            using (var db = DbContextFactory.CreateDbContext())
+            {
+                result.IsOk = true;
+               
+            }
+            return new JsonResult() { Data = result };
+        }

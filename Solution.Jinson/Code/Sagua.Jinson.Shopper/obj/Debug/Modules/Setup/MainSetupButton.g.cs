@@ -51,7 +51,7 @@ namespace Sagua.Jinson.Shopper.Modules.Setup {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Sagua.Jinson.Shopper;component/modules/setup/mainsetupbutton.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/JinsonShopper;component/modules/setup/mainsetupbutton.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Modules\Setup\MainSetupButton.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -1,0 +1,9 @@
+        public async Task<[Name]PostResult> [Name]( )
+        {
+            var postModel = new [Name]PostModel() { };
+            var client = new RestSharp.RestClient(mBusinessServerProvider.GetServerUrl());
+            var request = new RestSharp.RestRequest("/Account/[Name]");
+            request.AddObject(postModel);
+            var result = await  client.ExecutePostTaskAsync<[Name]PostResult>(request);            
+            return result.Data;
+        }

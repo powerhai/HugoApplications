@@ -1,0 +1,55 @@
+﻿<Window x:Class="Sagua.CodeHelper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="650" Width="825" Padding="20" Loaded="MainWindow_OnLoaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="60"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock>Name:</TextBlock>
+            <TextBox Grid.Column="1" Text="{Binding Name}"></TextBox>
+            <Button Grid.Column="2"  Command="{Binding CreateCommand}">Create</Button>
+        </Grid>
+        <ItemsControl Grid.Row="1" ItemsSource="{Binding Files}">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+                            <ColumnDefinition Width="10"></ColumnDefinition>
+                            <ColumnDefinition Width="100"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="{Binding .}"></TextBlock>
+                        <Button Grid.Column="2" Command="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=Window},Path=DataContext.CopyCommand}" CommandParameter="{Binding .}">Copy</Button>
+                    </Grid>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="100"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <TextBox Text="{Binding ServerController}"></TextBox>
+            <Button Grid.Column="1" Command="{Binding CopyStringCommand}" CommandParameter="{Binding ServerController}">Copy</Button>
+        </Grid>
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="100"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <TextBox Text="{Binding ClientController}"></TextBox>
+            <Button Grid.Column="1" Command="{Binding CopyStringCommand}" CommandParameter="{Binding ClientController}">Copy</Button>
+        </Grid>
+    </Grid>
+</Window>
