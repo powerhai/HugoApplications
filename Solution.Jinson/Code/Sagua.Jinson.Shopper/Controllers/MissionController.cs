@@ -20,6 +20,16 @@ namespace Sagua.Jinson.Shopper.Controllers
             mAuthorizationService = authorizationService;
         }
 
+        public async Task<PublishMissionPostResult> PublishMission(DateTime startDate,int startCount, int dayCount, decimal dayRise, string goodsId, decimal price)
+        {
+            var postModel = new PublishMissionPostModel() { StartDate = startDate, StartCount = startCount, DayCount = dayCount, DayRise = dayRise, GoodsId = goodsId, Price = price };
+            var client = new RestSharp.RestClient(mBusinessServerProvider.GetServerUrl());
+            var request = new RestSharp.RestRequest("/Mission/PublishMission");
+            request.AddObject(postModel);
+            var result = await client.ExecutePostTaskAsync<PublishMissionPostResult>(request);
+            return result.Data;
+        }
+
         public async Task<GetMissionsOfBusinessUserPostResults> GetMissionsOfBusinessUser ()
            
         {

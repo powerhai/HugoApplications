@@ -44,7 +44,7 @@
                     <ColumnDefinition Width="10"/>
                     <ColumnDefinition Width="70"/>
                 </Grid.ColumnDefinitions>
-                <TextBlock Grid.Column="0" >开始日期</TextBlock>
+                <TextBlock Grid.Column="0"  >开始日期</TextBlock>
                 <xctk:DateTimeUpDown Grid.Column="2" Format="ShortDate"></xctk:DateTimeUpDown>
                 <TextBlock Grid.Column="4" >初始数量</TextBlock>
                 <xctk:IntegerUpDown Grid.Column="6"></xctk:IntegerUpDown>
@@ -61,32 +61,16 @@
                 <Button Grid.Column="16" Grid.RowSpan="3"  Content="发布任务"></Button>
             </Grid>
         </Border>
-        <ListView Grid.Row="4" ItemsSource="{Binding Tasks}">
+        <ListView  x:Name="T_ListView"  Grid.Row="4" ItemsSource="{Binding Orders}">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Header="日期" Width="120" DisplayMemberBinding="{Binding Date,StringFormat=yyyy-MM-dd}"></GridViewColumn>
-                    <GridViewColumn Header="网站" Width="100" DisplayMemberBinding="{Binding ShopType,Converter={StaticResource Enum2StringConverter}}"></GridViewColumn>
-                    <GridViewColumn Header="宝贝ID" Width="150" DisplayMemberBinding="{Binding GoodsId}"></GridViewColumn>
-                    <GridViewColumn Header="计划数量" Width="90" DisplayMemberBinding="{Binding PlanCount}"></GridViewColumn>
-                    <GridViewColumn Header="实际数量" Width="90" DisplayMemberBinding="{Binding RealCount}"></GridViewColumn>
-                    <GridViewColumn Header="状态" Width="150"  >
-                        <GridViewColumn.CellTemplate>
-                            <DataTemplate>
-                                <TextBlock x:Name="T_Status" Text="{Binding TaskStatus,Converter={StaticResource Enum2StringConverter}}"></TextBlock>
-                                <DataTemplate.Triggers>
-                                    <DataTrigger  Binding="{Binding TaskStatus}" Value="{x:Static domain:BuyTaskStatus.Execute}">
-                                        <Setter TargetName="T_Status" Property="Foreground" Value="DodgerBlue" ></Setter>
-                                    </DataTrigger>
-                                    <DataTrigger  Binding="{Binding TaskStatus}" Value="{x:Static domain:BuyTaskStatus.Finish }">
-                                        <Setter TargetName="T_Status" Property="Foreground" Value="LimeGreen" ></Setter>
-                                    </DataTrigger>
-                                    <DataTrigger  Binding="{Binding TaskStatus}" Value="{x:Static domain:BuyTaskStatus.Normal }">
-                                        <Setter TargetName="T_Status" Property="Foreground" Value="Black" ></Setter>
-                                    </DataTrigger>
-                                </DataTemplate.Triggers>
-                            </DataTemplate>
-                        </GridViewColumn.CellTemplate>
-                    </GridViewColumn>
+                    <GridViewColumn Header="下单时间" Width="120" DisplayMemberBinding="{Binding BuyTime,StringFormat=yyyy-MM-dd}"></GridViewColumn>
+                    <GridViewColumn Header="订单编号" Width="150" DisplayMemberBinding="{Binding Id}"></GridViewColumn>
+                    <GridViewColumn Header="支付时间" Width="120" DisplayMemberBinding="{Binding PayTime,StringFormat=yyyy-MM-dd}"></GridViewColumn>
+                    <GridViewColumn Header="买家" Width="100" DisplayMemberBinding="{Binding Buyer}"></GridViewColumn>
+                    <GridViewColumn Header="付款帐号" Width="90" DisplayMemberBinding="{Binding BuyerAccount}"></GridViewColumn>
+                    <GridViewColumn Header="订单金额" Width="80" DisplayMemberBinding="{Binding Price}"></GridViewColumn>
+                    
                     <GridViewColumn Width="auto">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
@@ -119,5 +103,8 @@
                 </GridView>
             </ListView.View>
         </ListView>
+        <Border Grid.Row="4" CornerRadius="20" Margin="20"  Padding="20,10" VerticalAlignment="Bottom" Background="#A8ABA7A7" HorizontalAlignment="Center" Visibility="{Binding IsPageDataLoading,Converter={StaticResource Bool2VisibilityConverter}}"   >
+            <TextBlock Foreground="Blue" FontWeight="Bold">正在加载下一页数据...</TextBlock>
+        </Border>
     </Grid>
 </UserControl>

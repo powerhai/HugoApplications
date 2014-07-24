@@ -10,6 +10,35 @@ namespace Sagua.Jinson.Server.WebControllers.Controllers
 {
     public class AccountController : Controller
     {
+        public JsonResult GetUserInfo(GetUserInfoPostModel model)
+        {
+            var result = new GetUserInfoPostResult();
+            using (var db = DbContextFactory.CreateDbContext())
+            {
+                var user = db.Accounts.First((a => a.UserName == model.UserName));
+                result.Mail = user.Mail;
+                result.QQ = user.QQ;
+                result.Tel = user.Tel;
+                result.IsOk = true;
+
+            }
+            return new JsonResult() { Data = result };
+        }
+        public JsonResult UpdateUserInfo(UpdateUserInfoPostModel model)
+        {
+            var result = new UpdateUserInfoPostResult();
+            using (var db = DbContextFactory.CreateDbContext())
+            {
+                var acc = db.Accounts.First(a => a.UserName == model.UserName);
+                acc.Mail = model.Mail;
+                acc.QQ = model.QQ;
+                acc.Tel = model.Tel;
+                db.SaveChanges();
+                result.IsOk = true;
+
+            }
+            return new JsonResult() { Data = result };
+        }
 
         public JsonResult UpdatePassword(UpdatePasswordPostModel model)
         {

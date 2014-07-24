@@ -7,3 +7,4 @@
 \\vmware-host\Shared Folders\HugoApplications\Solution.Jinson\Code\Sagua.Jinson.Server.WebControllers\obj\Debug\Sagua.Jinson.Server.WebControllers.csprojResolveAssemblyReference.cache
 \\vmware-host\Shared Folders\HugoApplications\Solution.Jinson\Code\Sagua.Jinson.Server.WebControllers\obj\Debug\Sagua.Jinson.Server.WebControllers.dll
 \\vmware-host\Shared Folders\HugoApplications\Solution.Jinson\Code\Sagua.Jinson.Server.WebControllers\obj\Debug\Sagua.Jinson.Server.WebControllers.pdb
+\\vmware-host\Shared Folders\HugoApplications\Solution.Jinson\Code\Sagua.Jinson.Server.WebControllers\bin\Debug\EntityFramework.dll

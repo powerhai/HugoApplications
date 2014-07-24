@@ -15,8 +15,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sagua.Jinson.Server.DB.Mode
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sagua.Jinson.Server.WebControllers", "Sagua.Jinson.Server.WebControllers\Sagua.Jinson.Server.WebControllers.csproj", "{0E384396-55E0-497C-A8FF-2205A68536B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sagua.Jinson.Server.WebServer", "Sagua.Jinson.Server.WebServer\Sagua.Jinson.Server.WebServer.csproj", "{9D44A808-19BC-4AA0-B832-A937B8E8607E}"
-EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Sagua.Jinson.Global.Domain", "Sagua.Jinson.Global.Domain\Sagua.Jinson.Global.Domain.shproj", "{04B92001-13DA-46C7-842C-D9606AE71EAE}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Sagua.Jinson.Global.Models", "Sagua.Jinson.Global.Models\Sagua.Jinson.Global.Models.shproj", "{6A915C6D-25FF-4504-ABCD-5071A9DB98FB}"
@@ -24,6 +22,8 @@ EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Sagua.Jinson.Global.Common", "Sagua.Jinson.Global.Common\Sagua.Jinson.Global.Common.shproj", "{DA01B03A-655D-4B0C-BE8E-FD3738BBBB93}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sagua.CodeHelper", "Sagua.CodeHelper\Sagua.CodeHelper.csproj", "{E7023B2A-611A-4086-B722-1BF346D44C8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sagua.Jinson.Server.WebServer", "Sagua.Jinson.Server.WebServer\Sagua.Jinson.Server.WebServer.csproj", "{66B3F4DF-B070-40CE-A632-A645C38E0A58}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -34,8 +34,8 @@ Global
 		Sagua.Jinson.Global.Models\Sagua.Jinson.Global.Models.projitems*{0e384396-55e0-497c-a8ff-2205a68536b8}*SharedItemsImports = 4
 		Sagua.Jinson.Global.Common\Sagua.Jinson.Global.Common.projitems*{0e384396-55e0-497c-a8ff-2205a68536b8}*SharedItemsImports = 4
 		Sagua.Jinson.Global.Models\Sagua.Jinson.Global.Models.projitems*{2d0aca6d-7a2a-4fb3-bb1c-2c9f81de169f}*SharedItemsImports = 4
-		Sagua.Jinson.Global.Common\Sagua.Jinson.Global.Common.projitems*{2d0aca6d-7a2a-4fb3-bb1c-2c9f81de169f}*SharedItemsImports = 4
 		Sagua.Jinson.Global.Domain\Sagua.Jinson.Global.Domain.projitems*{2d0aca6d-7a2a-4fb3-bb1c-2c9f81de169f}*SharedItemsImports = 4
+		Sagua.Jinson.Global.Common\Sagua.Jinson.Global.Common.projitems*{2d0aca6d-7a2a-4fb3-bb1c-2c9f81de169f}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,14 +58,14 @@ Global
 		{0E384396-55E0-497C-A8FF-2205A68536B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E384396-55E0-497C-A8FF-2205A68536B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E384396-55E0-497C-A8FF-2205A68536B8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9D44A808-19BC-4AA0-B832-A937B8E8607E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9D44A808-19BC-4AA0-B832-A937B8E8607E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9D44A808-19BC-4AA0-B832-A937B8E8607E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9D44A808-19BC-4AA0-B832-A937B8E8607E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E7023B2A-611A-4086-B722-1BF346D44C8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E7023B2A-611A-4086-B722-1BF346D44C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7023B2A-611A-4086-B722-1BF346D44C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7023B2A-611A-4086-B722-1BF346D44C8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66B3F4DF-B070-40CE-A632-A645C38E0A58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B3F4DF-B070-40CE-A632-A645C38E0A58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B3F4DF-B070-40CE-A632-A645C38E0A58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B3F4DF-B070-40CE-A632-A645C38E0A58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,6 +75,6 @@ Global
 		{FB36C288-1C4A-4AD8-8F91-EE48F281517C} = {EF3E5189-E294-4C63-9723-1FFA8DA0519D}
 		{CAC3FD80-4CB2-4C2E-B34B-9858376F59C1} = {EF3E5189-E294-4C63-9723-1FFA8DA0519D}
 		{0E384396-55E0-497C-A8FF-2205A68536B8} = {EF3E5189-E294-4C63-9723-1FFA8DA0519D}
-		{9D44A808-19BC-4AA0-B832-A937B8E8607E} = {EF3E5189-E294-4C63-9723-1FFA8DA0519D}
+		{66B3F4DF-B070-40CE-A632-A645C38E0A58} = {EF3E5189-E294-4C63-9723-1FFA8DA0519D}
 	EndGlobalSection
 EndGlobal

@@ -8,7 +8,7 @@ using System.Text;
 namespace Sagua.Jinson.Global.Domain
 {
 
-
+   
     public enum ShopType
     {
         [Display(Name="淘宝")]

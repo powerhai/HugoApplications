@@ -1,3 +1,4 @@
+using System;
 using System.ComponentModel.DataAnnotations;
 using Sagua.Jinson.Global.Domain;
 
@@ -11,6 +12,15 @@ namespace Sagua.Jinson.Server.DB.Models
             get;
             set;
         }
+
+
+        public DateTime Date
+        {
+            get;
+            set;
+        }
+      
+      
         public long UserId
         {
             get;

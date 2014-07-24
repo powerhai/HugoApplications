@@ -1,7 +1,13 @@
-﻿using System.Windows;
+﻿using System;
+using System.Diagnostics;
+using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Controls.Primitives;
+using System.Windows.Input;
+using System.Windows.Media;
 using Microsoft.Practices.Unity;
 using Sagua.Jinson.Shopper.Common;
+using Sagua.Jinson.Shopper.Controls;
 
 namespace Sagua.Jinson.Shopper.Modules.Mission
 {
@@ -27,6 +33,7 @@ namespace Sagua.Jinson.Shopper.Modules.Mission
             InitializeComponent();
             this.IsVisibleChanged += MissionWorkSpaceView_IsVisibleChanged;
         }
+  
 
         void MissionWorkSpaceView_IsVisibleChanged(object sender, System.Windows.DependencyPropertyChangedEventArgs e)
         {

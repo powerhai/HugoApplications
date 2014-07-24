@@ -9,25 +9,39 @@
     <Import_RootNamespace>Sagua.Jinson.Global.Models</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)PostModels\AddServerPostModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PostModels\AddShopPostModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PostModels\DeleteMissionPostModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PostModels\DeleteShopPostModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PostModels\DelServerPostModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PostModels\GetMissionsOfBusinessUserPostModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PostModels\GetOrdersOfBusinessUserByPagePostModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PostModels\GetServersPostModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PostModels\GetShopsOfBusinessUserPostModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PostModels\GetUserInfoPostModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PostModels\LoginPostModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PostModels\PublishMissionPostModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PostModels\RegisterBusinessUserPostModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PostModels\UpdateMissionPostResult.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PostModels\UpdatePasswordPostModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PostModels\UpdateShopPostModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PostModels\UpdateUserInfoPostModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PostResults\AddServerPostResult.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PostResults\AddShopPostResult.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PostResults\DeleteMissionPostResult.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PostResults\DeleteShopPostResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PostResults\DelServerPostResult.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PostResults\GetMissionsOfBusinessUserPostResults.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PostResults\GetOrdersOfBusinessUserByPagePostResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PostResults\GetServersPostResult.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PostResults\GetShopsOfBusinessUserPostResults.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PostResults\GetUserInfoPostResult.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PostResults\LoginPostResults.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PostResults\PublishMissionPostResult.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PostResults\RegisterBusinessUserPostResults.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PostResults\UpdateMissionPostModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PostResults\UpdatePasswordPostResult.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PostResults\UpdateShopPostResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PostResults\UpdateUserInfoPostResult.cs" />
   </ItemGroup>
 </Project>

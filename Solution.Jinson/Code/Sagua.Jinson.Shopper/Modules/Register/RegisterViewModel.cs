@@ -13,7 +13,7 @@ using Sagua.Jinson.Shopper.Controllers;
 using Sagua.Jinson.Shopper.Controls;
 using Sagua.Jinson.Shopper.Domain;
 using Sagua.Jinson.Shopper.Modules.Mission;
-
+using MessageBox = Xceed.Wpf.Toolkit.MessageBox;
 namespace Sagua.Jinson.Shopper.Modules.Register
 {
     public class RegisterViewModel : BaseViewModel

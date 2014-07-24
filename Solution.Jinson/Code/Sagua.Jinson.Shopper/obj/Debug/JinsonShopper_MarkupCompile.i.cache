@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 \\vmware-host\Shared Folders\HugoApplications\Solution.Jinson\Code\Sagua.Jinson.Shopper\App.xaml
-171440308103
+21555272629
 
-771754076644
+107731870184
 22-943642185
-Controls\RegionBusyBox.xaml;Modules\Login\LoginView.xaml;Modules\Order\MainOrderButton.xaml;Modules\Order\OrderWorkSpaceView.xaml;Modules\Register\RegisterView.xaml;Modules\Setup\ChangePassword\ChangePasswordView.xaml;Modules\Setup\ChangeUserInfomation\ChangeUserInformationView.xaml;Modules\Setup\MainSetupButton.xaml;Modules\Setup\SetupWorkSpaceView.xaml;Modules\Shop\MainShopButton.xaml;Modules\Shop\ShopWorkSpaceView.xaml;Modules\Shop\WindowModifyShop.xaml;Modules\Mission\MainMissionButton.xaml;Modules\Mission\MissionWorkSpaceView.xaml;Modules\Mission\WindowModifyMission.xaml;Resources\DictionaryHeaderLabel.xaml;Shell.xaml;
+Controls\RegionBusyBox.xaml;Modules\Login\LoginView.xaml;Modules\Order\MainOrderButton.xaml;Modules\Order\OrderWorkSpaceView.xaml;Modules\Order\Window1.xaml;Modules\Register\RegisterView.xaml;Modules\Server\MainServerButton.xaml;Modules\Server\ServerWorkSpaceView.xaml;Modules\Setup\ChangePassword\ChangePasswordView.xaml;Modules\Setup\ChangeUserInfomation\ChangeUserInformationView.xaml;Modules\Setup\MainSetupButton.xaml;Modules\Setup\SetupWorkSpaceView.xaml;Modules\Shop\MainShopButton.xaml;Modules\Shop\ShopWorkSpaceView.xaml;Modules\Shop\WindowModifyShop.xaml;Modules\Mission\MainMissionButton.xaml;Modules\Mission\MissionWorkSpaceView.xaml;Modules\Mission\WindowModifyMission.xaml;Resources\DictionaryHeaderLabel.xaml;Resources\ToggelButton.xaml;Shell.xaml;
 
-True
+False
 

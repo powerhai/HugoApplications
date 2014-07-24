@@ -11,7 +11,7 @@ namespace Sagua.Jinson.Shopper.Services
         private List<BusinessServer> Servers = new List<BusinessServer>(); 
         public BusinessServerProvider ()
         {
-            Servers.Add(new BusinessServer("http://localhost:1600")); 
+            Servers.Add(new BusinessServer("http://localhost/Jinson")); 
         }
         private BusinessServer mLastAbleServer;
         private static readonly Random RandomObject = new Random();

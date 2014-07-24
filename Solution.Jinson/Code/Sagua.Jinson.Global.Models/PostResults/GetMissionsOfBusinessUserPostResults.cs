@@ -24,7 +24,11 @@ namespace Sagua.Jinson.Global.Models.PostResults
                 get;
                 set;
             }
-
+            public DateTime Date
+            {
+                get;
+                set;
+            }
             public string GoodsId
             {
                 get;

@@ -16,7 +16,7 @@ using Sagua.Jinson.Global.Domain;
 using Sagua.Jinson.Shopper.Common;
 using Sagua.Jinson.Shopper.Controllers;
 using Sagua.Jinson.Shopper.Models;
-
+using MessageBox = Xceed.Wpf.Toolkit.MessageBox;
 namespace Sagua.Jinson.Shopper.Modules.Shop
 {
     

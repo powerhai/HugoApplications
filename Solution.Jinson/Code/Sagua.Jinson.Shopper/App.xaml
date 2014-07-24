@@ -6,6 +6,7 @@
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Resources/DictionaryHeaderLabel.xaml"/>
+                <ResourceDictionary Source="Resources/ToggelButton.xaml"/>
             </ResourceDictionary.MergedDictionaries> 
             
             <Style TargetType="{x:Type TextBlock}">
@@ -18,7 +19,13 @@
             <Style TargetType="{x:Type ComboBox}">
                 <Setter Property="VerticalAlignment" Value="Center"></Setter>
             </Style>
+            <Style TargetType="{x:Type CheckBox}">
+                <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            </Style>
+            
             <valueConverts:Enum2StringConverter x:Key="Enum2StringConverter" />
+            <valueConverts:Bool2VisibilityConverter x:Key="Bool2VisibilityConverter" />
+            <valueConverts:Bool2InvertedVisibilityConverter x:Key="Bool2InvertedVisibilityConverter" />
         </ResourceDictionary>
       
     </Application.Resources>

@@ -24,6 +24,18 @@ namespace Sagua.Jinson.Server.DB.Context
             set;
         }
 
+        public DbSet<Order> Orders
+        {
+            get;
+            set;
+        }
+
+        public DbSet<Models.Server> Servers
+        {
+            get;
+            set;
+        }
+
         public WebDbContext()
             : base("name=DefaultConnection")
 		{

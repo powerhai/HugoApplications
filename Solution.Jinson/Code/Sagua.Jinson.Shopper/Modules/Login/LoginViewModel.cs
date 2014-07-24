@@ -14,7 +14,7 @@ using Sagua.Jinson.Shopper.Domain;
 using Sagua.Jinson.Shopper.Modules.Mission;
 using Sagua.Jinson.Shopper.Modules.Register;
 using Sagua.Jinson.Shopper.Services;
-
+using MessageBox = Xceed.Wpf.Toolkit.MessageBox;
 namespace Sagua.Jinson.Shopper.Modules.Login
 {
     public class LoginViewModel : BaseViewModel

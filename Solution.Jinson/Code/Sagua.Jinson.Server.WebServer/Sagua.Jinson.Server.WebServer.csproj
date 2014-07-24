@@ -7,14 +7,14 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{9D44A808-19BC-4AA0-B832-A937B8E8607E}</ProjectGuid>
+    <ProjectGuid>{66B3F4DF-B070-40CE-A632-A645C38E0A58}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Sagua.Jinson.Server.WebServer</RootNamespace>
     <AssemblyName>Sagua.Jinson.Server.WebServer</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
-    <UseIISExpress>true</UseIISExpress>
+    <UseIISExpress>false</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -123,17 +123,13 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Sagua.Jinson.Server.DB.Models\Sagua.Jinson.Server.DB.Models.csproj">
-      <Project>{CAC3FD80-4CB2-4C2E-B34B-9858376F59C1}</Project>
-      <Name>Sagua.Jinson.Server.DB.Models</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Sagua.Jinson.Server.WebControllers\Sagua.Jinson.Server.WebControllers.csproj">
-      <Project>{0e384396-55e0-497c-a8ff-2205a68536b8}</Project>
-      <Name>Sagua.Jinson.Server.WebControllers</Name>
-    </ProjectReference>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <ProjectReference Include="..\Sagua.Jinson.Server.WebControllers\Sagua.Jinson.Server.WebControllers.csproj">
+      <Project>{0E384396-55E0-497C-A8FF-2205A68536B8}</Project>
+      <Name>Sagua.Jinson.Server.WebControllers</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -150,7 +146,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>1600</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:1600/</IISUrl>
+          <IISUrl>http://localhost/Jinson</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

@@ -54,6 +54,18 @@
   <PropertyGroup>
     <ApplicationIcon>Resources\jin.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Practices.Prism">
       <HintPath>..\..\..\lib\Prism\Microsoft.Practices.Prism.dll</HintPath>
@@ -100,24 +112,31 @@
     </ApplicationDefinition>
     <Compile Include="Common\BaseView.cs" />
     <Compile Include="Common\BaseViewModel.cs" />
+    <Compile Include="Common\DataForm.cs" />
     <Compile Include="Common\EnumExtension.cs" />
     <Compile Include="Common\EnumValuesExtension.cs" />
+    <Compile Include="Controllers\OrderController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\MissionController.cs" />
     <Compile Include="Controllers\RegisterController.cs" />
+    <Compile Include="Controllers\ServerController.cs" />
     <Compile Include="Controllers\ShopController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Controls\BoundPasswordBox.cs" />
     <Compile Include="Controls\RegionBusyBox.xaml.cs">
       <DependentUpon>RegionBusyBox.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Controls\ScrollViewerEx.cs" />
     <Compile Include="Domain\RegionNames.cs" />
+    <Compile Include="Models\UiOrder.cs" />
+    <Compile Include="Models\UiServer.cs" />
     <Compile Include="Models\UiShop.cs" />
     <Compile Include="Models\UiMission.cs" />
     <Compile Include="Modules\Login\LoginView.xaml.cs">
       <DependentUpon>LoginView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Modules\Login\LoginViewModel.cs" />
+    <Compile Include="Modules\Mission\MissionQueryForm.cs" />
     <Compile Include="Modules\Mission\ModifyMissionViewModel.cs" />
     <Compile Include="Modules\Order\MainOrderButton.xaml.cs">
       <DependentUpon>MainOrderButton.xaml</DependentUpon>
@@ -125,10 +144,22 @@
     <Compile Include="Modules\Order\OrderWorkSpaceView.xaml.cs">
       <DependentUpon>OrderWorkSpaceView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Modules\Order\OrderWorkSpaceViewModel.cs" />
+    <Compile Include="Modules\Order\Window1.xaml.cs">
+      <DependentUpon>Window1.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Modules\Register\RegisterView.xaml.cs">
       <DependentUpon>RegisterView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Modules\Register\RegisterViewModel.cs" />
+    <Compile Include="Modules\Server\MainServerButton.xaml.cs">
+      <DependentUpon>MainServerButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Server\ServerWorkForm.cs" />
+    <Compile Include="Modules\Server\ServerWorkSpaceView.xaml.cs">
+      <DependentUpon>ServerWorkSpaceView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Server\ServerWorkSpaceViewModel.cs" />
     <Compile Include="Modules\Setup\ChangePassword\ChangePasswordView.xaml.cs">
       <DependentUpon>ChangePasswordView.xaml</DependentUpon>
     </Compile>
@@ -137,6 +168,7 @@
     <Compile Include="Modules\Setup\ChangeUserInfomation\ChangeUserInformationView.xaml.cs">
       <DependentUpon>ChangeUserInformationView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Modules\Setup\ChangeUserInfomation\UserInfoForm.cs" />
     <Compile Include="Modules\Setup\MainSetupButton.xaml.cs">
       <DependentUpon>MainSetupButton.xaml</DependentUpon>
     </Compile>
@@ -175,6 +207,8 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Bootstrapper.cs" />
+    <Compile Include="ValueConverts\Bool2InvertedVisibilityConverter.cs" />
+    <Compile Include="ValueConverts\Bool2VisibilityConverter.cs" />
     <Compile Include="ValueConverts\Enum2StringConverter.cs" />
     <Page Include="Controls\RegionBusyBox.xaml">
       <SubType>Designer</SubType>
@@ -192,7 +226,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Modules\Order\Window1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Modules\Register\RegisterView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Server\MainServerButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Server\ServerWorkSpaceView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -240,6 +286,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Resources\ToggelButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Shell.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -264,6 +314,7 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -273,9 +324,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Modules\Service\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0">
       <Visible>False</Visible>

@@ -48,29 +48,29 @@
                     <ColumnDefinition Width="70"/>
                 </Grid.ColumnDefinitions>
                 <TextBlock Grid.Column="0" >开始日期</TextBlock>
-                <toolkit:DateTimeUpDown Grid.Column="2" Format="ShortDate"></toolkit:DateTimeUpDown>
+                <toolkit:DateTimeUpDown Grid.Column="2" Format="ShortDate" Value="{Binding Form.StartDate}"></toolkit:DateTimeUpDown>
                 <TextBlock Grid.Column="4" >初始数量</TextBlock>
-                <toolkit:IntegerUpDown Grid.Column="6"></toolkit:IntegerUpDown>
+                <toolkit:IntegerUpDown Grid.Column="6" Value="{Binding Form.StartCount}"></toolkit:IntegerUpDown>
                 
                 <TextBlock Grid.Column="8" >持续天数</TextBlock>
-                <toolkit:IntegerUpDown  Grid.Column="10"></toolkit:IntegerUpDown>
+                <toolkit:IntegerUpDown  Grid.Column="10" Value="{Binding Form.DayCount}"></toolkit:IntegerUpDown>
                 
                 <TextBlock Grid.Column="12" >日增长（%）</TextBlock>
-                <toolkit:DecimalUpDown Grid.Column="14"></toolkit:DecimalUpDown>
+                <toolkit:DecimalUpDown Grid.Column="14" Value="{Binding Form.DayRise}"></toolkit:DecimalUpDown>
                 
                 <TextBlock Grid.Column="0" Grid.Row="2" >店铺</TextBlock>
                 <ComboBox Grid.Column="2" Grid.Row="2"></ComboBox>
                 
                 <TextBlock Grid.Column="4" Grid.Row="2"  >宝贝ID</TextBlock>
-                <TextBox Grid.Column="6" Grid.Row="2"></TextBox>
+                <TextBox Grid.Column="6" Grid.Row="2" Text="{Binding Form.GoodsId}"></TextBox>
                 
                 <TextBlock Grid.Column="8" Grid.Row="2"  >任务单价</TextBlock>
-                <toolkit:DecimalUpDown  Grid.Column="10" Grid.Row="2"  ></toolkit:DecimalUpDown>
+                <toolkit:DecimalUpDown  Grid.Column="10" Grid.Row="2"  Value="{Binding Form.Price}"></toolkit:DecimalUpDown>
                 
-                <Button Grid.Column="16" Grid.RowSpan="3"  Content="发布任务"></Button>
+                <Button Grid.Column="16" Grid.RowSpan="3"  Content="发布任务" Command="{Binding PublishMissionCommand}"></Button>
             </Grid>
         </Border>
-        <ListView Grid.Row="4" ItemsSource="{Binding Tasks}">
+        <ListView x:Name="T_ListView" Grid.Row="4" ItemsSource="{Binding Missions.View}">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="日期" Width="120" DisplayMemberBinding="{Binding Date,StringFormat=yyyy-MM-dd}"></GridViewColumn>

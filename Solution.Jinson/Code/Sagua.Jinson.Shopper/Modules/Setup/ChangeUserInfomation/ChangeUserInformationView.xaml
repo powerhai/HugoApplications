@@ -35,12 +35,12 @@
                     <ColumnDefinition Width="10"/>
                 </Grid.ColumnDefinitions>
                 <TextBlock Grid.Column="0">QQ</TextBlock>
-                <TextBox Grid.Column="2"></TextBox>
+                <TextBox Grid.Column="2" Text="{Binding DataForm.QQ}"></TextBox>
                    <TextBlock Grid.Column="4">电话</TextBlock>
-                <TextBox Grid.Column="6"></TextBox>
+                <TextBox Grid.Column="6" Text="{Binding DataForm.Tel}"></TextBox>
                 <TextBlock Grid.Column="8">邮箱</TextBlock>
-                <TextBox Grid.Column="10"></TextBox>
-                 <Button Grid.Column="12" Command="{Binding SavePasswordCommand}">更改</Button>
+                <TextBox Grid.Column="10" Text="{Binding DataForm.Mail}"></TextBox>
+                <Button Grid.Column="12" Command="{Binding UpdateUserInfoCommand}" IsEnabled="{Binding IsLoadOk}">更改</Button>
             </Grid>
         </Border>
     </Grid>

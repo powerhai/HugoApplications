@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
+using System.Linq;
 using System.Windows;
 using System.Windows.Data;
 using System.Windows.Forms.VisualStyles;
@@ -11,13 +13,30 @@ using Sagua.Jinson.Global.Domain;
 using Sagua.Jinson.Shopper.Common;
 using Sagua.Jinson.Shopper.Controllers;
 using Sagua.Jinson.Shopper.Models;
-
+using MessageBox = Xceed.Wpf.Toolkit.MessageBox;
 namespace Sagua.Jinson.Shopper.Modules.Mission
 {
     public class MissionWorkSpaceViewModel : BaseViewModel 
     {
+
+        private MissionQueryForm mForm;
+        public MissionQueryForm Form
+        {
+            get
+            {
+                return mForm ?? (mForm = new MissionQueryForm());
+            }
+            set
+            {
+                mForm = value;
+                OnPropertyChanged();
+            }
+        }
+      
+
         private readonly MissionController mMissionController;
         private ObservableCollection<UiMission> mTasks;
+        private CollectionViewSource mMissions;
         private static object Lock = new object();
         public ObservableCollection<UiMission> Tasks
         {
@@ -26,7 +45,21 @@ namespace Sagua.Jinson.Shopper.Modules.Mission
                 return mTasks ?? (mTasks = new ObservableCollection<UiMission>());
             } 
         }
-        
+
+        public CollectionViewSource Missions
+        {
+            get
+            {
+                if(mMissions == null)
+                {
+                    mMissions = new CollectionViewSource();
+                    mMissions.Source = Tasks;
+                    mMissions.View.SortDescriptions.Add(new SortDescription("Date", ListSortDirection.Descending));
+                }
+                return mMissions;
+            }
+      
+        }
         public MissionWorkSpaceViewModel (IUnityContainer container, MissionController missionController) : base(container)
         {
             mMissionController = missionController;
@@ -55,6 +88,46 @@ namespace Sagua.Jinson.Shopper.Modules.Mission
 
 
 
+
+        public ICommand PublishMissionCommand
+        {
+            get
+            {
+                return new DelegateCommand(async () =>
+                {
+                    var mv = MessageBox.Show("相同日期相同宝贝的设置将会被覆盖，是否继续？", "提示", MessageBoxButton.OKCancel, MessageBoxImage.Exclamation);
+                    if(mv == MessageBoxResult.Cancel)
+                        return;
+                    var rv = await mMissionController.PublishMission(Form.StartDate, Form.StartCount, Form.DayCount, Form.DayRise, Form.GoodsId, Form.Price  );
+                    if(rv.IsOk)
+                    {
+                        foreach(var item in rv.Missions)
+                        {
+                           
+                            if(Tasks.Any(a => a.ID == item.Id))
+                            {
+                                var task  = Tasks.First(a => a.ID == item.Id);
+                                task.PlanCount = item.PlanCount;
+                            } else
+                            {
+                                var task = new UiMission()
+                                {
+                                    Date = item.Date,
+                                    GoodsId = item.GoodsId,
+                                    ID = item.Id,
+                                    PlanCount = item.PlanCount,
+                                    TaskStatus = item.TaskStatus
+                                };
+                                this.Tasks.Add(task);
+                            }
+                        }
+                    }
+                });
+            }
+
+        }
+      
+        
         public ICommand EditTaskCommand
         {
             get
@@ -96,11 +169,12 @@ namespace Sagua.Jinson.Shopper.Modules.Mission
             {
                 foreach(var item in result.Missions)
                 {
-                    Tasks.Add(new UiMission(){ ID = item.Id, GoodsId = item.GoodsId, PlanCount = item.PlanCount, RealCount = item.RealCount, ShopType = item.ShopType, TaskStatus = item.MissionStatus });
+                    Tasks.Add(new UiMission(){ ID = item.Id, Date = item.Date, GoodsId = item.GoodsId, PlanCount = item.PlanCount, RealCount = item.RealCount, ShopType = item.ShopType, TaskStatus = item.MissionStatus });
                 }
             }
             this.CloseBusyBox();
             
         }
+
     }
 }
